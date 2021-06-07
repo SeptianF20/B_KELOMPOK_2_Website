@@ -41,29 +41,25 @@
                     <div class="form-group">
                       <label for="cname" class="control-label col-lg-2">Nama Perusahaan <span class="require">*</span></label>
                       <div class="col-lg-10">
-                        <input class="form-control" type="text" name="nama" id="nama" minlenght="5" value="{{ isset($pengalaman_kerja) ? 
-                        $pengalaman_kerja->nama : ''}}" require />
+                        <input class="form-control" type="text" name="nama" id="nama" minlenght="5" value="{{ isset($pengalaman_kerja) ? $pengalaman_kerja->nama : ''}}" require />
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="cname" class="control-label col-lg-2">Jabatan <span class="require">*</span></label>
                       <div class="col-lg-10">
-                        <input class="form-control" type="text" name="jabatan" id="jabatan" minlenght="2" value="{{ isset($pengalaman_kerja) ? 
-                        $pengalaman_kerja->jabatan : ''}}" require />
+                        <input class="form-control" type="text" name="jabatan" id="jabatan" minlenght="2" value="{{ isset($pengalaman_kerja) ? $pengalaman_kerja->jabatan : ''}}" require />
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="curl" class="control-label col-lg-2">Tahun Masuk <span class="require">*</span></label>
                       <div class="col-lg-10">
-                        <input class="form-control" type="text" name="tahun_masuk" id="tahun_masuk" value="{{ isset($pengalaman_kerja) ? 
-                        $pengalaman_kerja->tahun_masuk : ''}}" require />
+                        <input class="form-control" type="text" name="tahun_masuk" id="tahun_masuk" value="{{ isset($pengalaman_kerja) ? $pengalaman_kerja->tahun_masuk : ''}}" require />
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="curl" class="control-label col-lg-2">Tahun Selesai <span class="require">*</span></label>
                       <div class="col-lg-10">
-                        <input class="form-control" type="text" name="tahun_keluar" id="tahun_keluar" value="{{ isset($pengalaman_kerja) ? 
-                        $pengalaman_kerja->tahun_keluar : ''}}" require />
+                        <input class="form-control" type="text" name="tahun_keluar" id="tahun_keluar" value="{{ isset($pengalaman_kerja) ? $pengalaman_kerja->tahun_keluar : ''}}" require />
                       </div>
                     </div>
                     <div class="form-group">

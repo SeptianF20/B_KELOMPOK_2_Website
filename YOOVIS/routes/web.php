@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Expr\AssignOp\Concat;
 
@@ -18,18 +17,16 @@ use PhpParser\Node\Expr\AssignOp\Concat;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.layouts.home');
 });
 
 Route::get('/coba', function () {
     return view('welcome');
-});
-
+})->name('coba');;
 
 Route::get('/error', function () {
     return view('error');
 })->name('error');
-
 
 Auth::routes();
 Route::resource('pendidikan', 'PendidikanController');
