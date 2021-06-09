@@ -24,9 +24,9 @@ Route::get('/coba', function () {
     return view('welcome');
 })->name('coba');;
 
-Route::get('/error', function () {
-    return view('error');
-})->name('error');
+Route::get('/user', function () {
+    return view('user');
+})->name('user');
 
 Auth::routes();
 Route::resource('pendidikan', 'PendidikanController');

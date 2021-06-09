@@ -63,7 +63,7 @@ class LoginController extends Controller
             return redirect()->route('home');
           }
           else if(Auth::user()->role == 2){
-              return redirect()->route('coba');
+              return redirect()->route('frontend');
           }
 
       }
