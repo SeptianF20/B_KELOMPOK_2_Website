@@ -20,13 +20,13 @@ Route::get('/', function () {
     return view('frontend.layouts.home');
 });
 
-Route::get('/coba', function () {
-    return view('welcome');
-})->name('coba');;
-
 Route::get('/user', function () {
     return view('user');
 })->name('user');
+
+Route::get('test', function () {
+    return view('1error');
+})->name('1error');;
 
 Auth::routes();
 Route::resource('pendidikan', 'PendidikanController');
