@@ -17,7 +17,7 @@ use PhpParser\Node\Expr\AssignOp\Concat;
 */
 
 Route::get('/', function () {
-    return view('frontend.layouts.home');
+    return view('frontend.home');
 });
 
 Route::get('/user', function () {

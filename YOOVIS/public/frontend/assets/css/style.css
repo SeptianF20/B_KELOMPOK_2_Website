@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -153,13 +153,27 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
+  border: 1px solid #6aaedc ;
   color: #fff;
 }
+.navbar .getstartednew {
+    background: #fff;
+    padding: 8px 25px;
+    margin-left: 5px;
+    border-radius: 50px;
+    border: 1px solid #a5a5a5 ;
+    color: #3498db;
+  }
 
 .navbar .getstarted:hover {
   color: #fff;
+  border: 2px solid #3498db;
   background: #4aa3df;
 }
+.navbar .getstartednew:hover {
+    color: #4aa3df;
+    border: 2px solid #3498db;
+  }
 
 .navbar .dropdown ul {
   display: block;
@@ -223,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #222222;
