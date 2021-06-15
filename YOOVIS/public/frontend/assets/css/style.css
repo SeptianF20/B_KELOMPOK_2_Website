@@ -156,13 +156,28 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #6aaedc ;
   color: #fff;
 }
-.navbar .getstartednew {
+
+.navbar .getstarted2 {
     background: #fff;
     padding: 8px 25px;
     margin-left: 5px;
     border-radius: 50px;
     border: 1px solid #a5a5a5 ;
-    color: #3498db;
+    color: #000000;
+  }
+
+.navbar .getstartednew img {
+    height: 25px;
+    padding-right: 5px;
+}
+
+.navbar .getstartednew {
+    background: #fff;
+    padding: 8px 25px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border: 1px solid #a5a5a5 ;
+    color: #000000;
   }
 
 .navbar .getstarted:hover {

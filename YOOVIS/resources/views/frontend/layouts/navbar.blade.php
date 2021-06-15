@@ -71,8 +71,34 @@
           </li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="register">Daftar</a></li>
-          <li><a class="getstartednew scrollto" href="login">Login</a></li>
+        @guest
+                            @if (Route::has('login'))
+                                <li>
+                                    <a class="getstarted" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                </li>
+                            @endif
+
+                            @if (Route::has('register'))
+                                <li>
+                                    <a class="getstarted2" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+                        <li class="dropdown">
+                            <a href="#" class="getstartednew"><b><img src="{{ asset('frontend/assets/img/profil.png')}}" >{{ Auth::user()-> name }}</b></a>
+                            <ul>
+                                <li><a href="#">Profile</a></li>
+                              <li><a href="#"> <a class="dropdown" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                              document.getElementById('logout-form').submit();">
+                                 {{ __('Logout') }}
+                                </a></li>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+                            </li>
+                        @endguest
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
