@@ -95,10 +95,9 @@
     <div class="panels-containerss">
         <div class="panel left-panel">
             <div class="content">
-                <h3>New here ?</h3>
+                <h3>Belum punya akun?</h3>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-                    ex ratione. Aliquid!
+                    Silahkan klik tombol ini!
                 </p>
                 <button class="btn transparent" id="sign-up-btn">
                     Register
@@ -108,10 +107,9 @@
         </div>
         <div class="panel right-panel">
             <div class="content">
-                <h3>One of us ?</h3>
+                <h3>Sudah punya akun?</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                    laboriosam ad deleniti.
+                    Silahkan klik tombol ini!
                 </p>
                 <button class="btn transparent" id="sign-in-btn">
                     Login
