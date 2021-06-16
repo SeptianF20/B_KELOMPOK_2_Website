@@ -1,7 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
@@ -15,17 +14,19 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="{{ asset('frontend_login/css/style.css')}}">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <title>Login</title>
+    <title>Sign in & Sign up Form</title>
   </head>
   <body>
-
-  @yield('content')
-
-
-    <script src="{{ asset('frontend_login/js/jquery-3.3.1.min.js')}}"></script>
-    <script src="{{ asset('frontend_login/js/popper.min.js')}}"></script>
+  @yield ('content')
+     <script src="{{ asset('frontend_login/js/jquery-3.3.1.min.js')}}"></script>
+     <script src="{{ asset('frontend_login/js/popper.min.js')}}"></script>
     <script src="{{ asset('frontend_login/js/bootstrap.min.js')}}"></script>
     <script src="{{ asset('frontend_login/js/main.js')}}"></script>
   </body>
 </html>
+

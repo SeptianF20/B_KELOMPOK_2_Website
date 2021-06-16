@@ -1,13 +1,11 @@
-$(function() {
-	'use strict';
-	
-  $('.form-control').on('input', function() {
-	  var $field = $(this).closest('.form-group');
-	  if (this.value) {
-	    $field.addClass('field--not-empty');
-	  } else {
-	    $field.removeClass('field--not-empty');
-	  }
-	});
+const sign_in_btn = document.querySelector("#sign-in-btn");
+const sign_up_btn = document.querySelector("#sign-up-btn");
+const container = document.querySelector(".containerss");
 
+sign_up_btn.addEventListener("click", () => {
+  container.classList.add("sign-up-mode");
+});
+
+sign_in_btn.addEventListener("click", () => {
+  container.classList.remove("sign-up-mode");
 });
