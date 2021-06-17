@@ -108,21 +108,5 @@ unset($__errorArgs, $__bag); ?>
         <?php echo e(__('Register')); ?>
 
     </button>
-
-    <p class="social-text">Or Sign up with social platforms</p>
-    <div class="social-media">
-        <a href="#" class="social-icon">
-            <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" class="social-icon">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="social-icon">
-            <i class="fab fa-google"></i>
-        </a>
-        <a href="#" class="social-icon">
-            <i class="fab fa-linkedin-in"></i>
-        </a>
-    </div>
 </form>
 <?php /**PATH C:\xampp\htdocs\E41191224_Ferry Septian Ferdiyanto\B_KELOMPOK_2_Website\YOOVIS\resources\views/auth/register.blade.php ENDPATH**/ ?>

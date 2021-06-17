@@ -92,30 +92,6 @@ unset($__errorArgs, $__bag); ?>
                     <?php echo e(__('Login')); ?>
 
                 </button>
-                <div>
-                    <?php if(Route::has('password.request')): ?>
-                    <a class="forgot" href="<?php echo e(route('password.request')); ?>">
-                        <?php echo e(__('Forgot Your Password?')); ?>
-
-                    </a>
-                    <?php endif; ?>
-                </div>
-
-                <p class="social-text">Or Sign in with social platforms</p>
-                <div class="social-media">
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
             </form>
             <?php echo $__env->make('auth.register', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         </div>
@@ -124,10 +100,9 @@ unset($__errorArgs, $__bag); ?>
     <div class="panels-containerss">
         <div class="panel left-panel">
             <div class="content">
-                <h3>New here ?</h3>
+                <h2>Belum punya akun?</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-                    ex ratione. Aliquid!
+                    Silahkan klik tombol ini!
                 </p>
                 <button class="btn transparent" id="sign-up-btn">
                     Register
@@ -137,10 +112,9 @@ unset($__errorArgs, $__bag); ?>
         </div>
         <div class="panel right-panel">
             <div class="content">
-                <h3>One of us ?</h3>
+                <h2>Sudah punya akun?</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                    laboriosam ad deleniti.
+                    Silahkan klik tombol ini!
                 </p>
                 <button class="btn transparent" id="sign-in-btn">
                     Login

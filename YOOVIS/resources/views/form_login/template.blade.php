@@ -15,9 +15,9 @@
     <!-- Style -->
     <link rel="stylesheet" href="{{ asset('frontend_login/css/style.css')}}">
     <script
-      src="https://kit.fontawesome.com/64d58efce2.js"
-      crossorigin="anonymous"
-    ></script>
+    src="https://kit.fontawesome.com/f3ebff9d1e.js" crossorigin="anonymous"></script>
+
+
 
     <title>Sign in & Sign up Form</title>
   </head>

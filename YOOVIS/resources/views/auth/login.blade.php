@@ -64,29 +64,6 @@
                 <button type="submit" class="btn btn-primary">
                     {{ __('Login') }}
                 </button>
-                <div>
-                    @if (Route::has('password.request'))
-                    <a class="forgot" href="{{ route('password.request') }}">
-                        {{ __('Forgot Your Password?') }}
-                    </a>
-                    @endif
-                </div>
-
-                <p class="social-text">Or Sign in with social platforms</p>
-                <div class="social-media">
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
             </form>
             @include('auth.register')
         </div>
@@ -95,7 +72,7 @@
     <div class="panels-containerss">
         <div class="panel left-panel">
             <div class="content">
-                <h3>Belum punya akun?</h3>
+                <h2>Belum punya akun?</h2>
                 <p>
                     Silahkan klik tombol ini!
                 </p>
@@ -107,7 +84,7 @@
         </div>
         <div class="panel right-panel">
             <div class="content">
-                <h3>Sudah punya akun?</h3>
+                <h2>Sudah punya akun?</h2>
                 <p>
                     Silahkan klik tombol ini!
                 </p>

@@ -55,7 +55,7 @@
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="<?php echo e(asset('backend/assets/images/logo-light-icon.png')); ?>" alt="homepage" class="dark-logo" />
+                            <img src="<?php echo e(asset('frontend/assets/img/logo.png')); ?>" alt="" class="img-fluid">
 
                         </b>
                         <!--End Logo icon -->
@@ -110,7 +110,9 @@
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="<?php echo e(asset('backend/assets/images/users/1.jpg')); ?>" alt="user" class="profile-pic me-2">Markarn Doe
+                                <img src="<?php echo e(asset('backend/assets/images/users/1.jpg')); ?>" alt="user" class="profile-pic me-2">
+                                <?php echo e(Auth::user()-> name); ?>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
                         </li>
