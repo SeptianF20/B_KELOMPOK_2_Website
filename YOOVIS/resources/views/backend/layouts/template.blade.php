@@ -50,19 +50,19 @@
                     <!-- ============================================================== -->
                     <!-- Logo -->
                     <!-- ============================================================== -->
-                    <a class="navbar-brand ms-4" href="">
+                    <a class="navbar-brand ms-4" href="index.html">
                         <!-- Logo icon -->
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="{{asset('backend/assets/images/2.png')}}" alt="homepage" />
+                            <img src="{{ asset('frontend/assets/img/logo.png')}}" alt="" class="img-fluid">
 
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="{{asset('backend/assets/images/1.png')}}" alt="homepage" class="dark-logo" />
+                            <img src="{{asset('backend/')}}/assets/images/logo-light-text.png" alt="homepage" class="dark-logo" />
 
                         </span>
                     </a>

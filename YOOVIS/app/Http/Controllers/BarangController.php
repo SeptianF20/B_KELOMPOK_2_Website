@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Barang;
 use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\Controller;
 
 class BarangController extends Controller
 {
@@ -35,15 +35,18 @@ class BarangController extends Controller
                       ->with('success','Data Pengalaman Kerja berhasil ditambahkan.');
     }
   
-    public function edit(Barang $barang)
+    public function edit($id)
     {
+      $barang = barang::where('id_barang', $id)->first();
       $admin_lecturer = "Mengubah";
       return view('backend/barang.create', compact('barang','admin_lecturer'));
     }
   
-    public function update(Barang $barang,Request $request)
+    public function update(Request $request)
     {
-      $barang->update($request->all());
+      $barang = Barang::find($request->id);
+      $barang->nama_barang = $request->nama;
+      $barang->save();
       return redirect()->route('barang.index')
                       ->with('success','Data Barang berhasil diperbaharui.');
     }
