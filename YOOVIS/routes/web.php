@@ -30,6 +30,6 @@ Route::get('test', function () {
 
 Auth::routes();
 Route::resource('pendidikan', 'PendidikanController');
-Route::resource('pengalaman_kerja', 'PengalamanKerjaController');
+Route::resource('barang', 'BarangController');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/profile', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');

@@ -1,20 +1,37 @@
 @extends('backend/layouts.template')
 @section('content')
 <!--main content start-->
-<section id="main-content">
-    <section class="wrapper">
-        <!--overview start-->
-        <div class="row">
-            <div class="col-lg-12">
-                <h3 class="page-header"><i class="fa fa-user"></i> Profile</h3>
-                <ol class="breadcrumb">
-                    <li><i class="fa fa-home"></i><a href="{{ url('home')}}">Home</a></li>
-                    <li><i class="fa fa-user"></i>Profile</li>
-                </ol>
-            </div>
-        </div>
 
-        <div class="row">
+<div class="page-wrapper">
+  <!-- ============================================================== -->
+  <!-- Bread crumb and right sidebar toggle -->
+  <!-- ============================================================== -->
+  <div class="page-breadcrumb">
+      <div class="row align-items-center">
+          <div class="col-md-6 col-8 align-self-center">
+              <h3 class="page-title mb-0 p-0">Profile</h3>
+              <div class="d-flex align-items-center">
+                  <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                      </ol>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Bread crumb and right sidebar toggle -->
+  <!-- ============================================================== -->
+  <!-- ============================================================== -->
+  <!-- Container fluid  -->
+  <!-- ============================================================== -->
+  <div class="container-fluid">
+      <!-- ============================================================== -->
+      <!-- Start Page Content -->
+      <!-- ============================================================== -->
+      <div class="row">
             <div class="col-lg-12">
                 <section class="panel">
                     <header class="panel-heading">
@@ -22,7 +39,7 @@
                     </header>
                     <div class="panel-body">
                         <div class="col-lg-4">
-                          <img src="{{ asset('backend/img/profile-avatar.jpg') }}" alt="" width="300px">
+                          <img src="{{ asset('backend/assets/images/users/3.jpg') }}" alt="" width="300px">
                         </div>
                         <div class="col-lg-8">
                           <form class="form-validate form-horizontal" method="post">
@@ -56,7 +73,23 @@
                 </section>
             </div>
         </div>
-        <!--/.row-->
-    </section>
-</section>
+      <!-- ============================================================== -->
+      <!-- End PAge Content -->
+      <!-- ============================================================== -->
+      <!-- ============================================================== -->
+      <!-- Right sidebar -->
+      <!-- ============================================================== -->
+      <!-- .right-sidebar -->
+      <!-- ============================================================== -->
+      <!-- End Right sidebar -->
+      <!-- ============================================================== -->
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Container fluid  -->
+  <!-- ============================================================== -->
+  <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- End Page wrapper  -->
 @endsection
+
