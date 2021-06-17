@@ -62,7 +62,7 @@
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="{{asset('backend/')}}/assets/images/logo-light-text.png" alt="homepage" class="dark-logo" />
+                            <img src="{{asset('backend/assets/images/logo-light-text.png')}}" alt="homepage" class="dark-logo" />
 
                         </span>
                     </a>
