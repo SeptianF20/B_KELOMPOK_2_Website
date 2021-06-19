@@ -50,7 +50,7 @@
                     <!-- ============================================================== -->
                     <!-- Logo -->
                     <!-- ============================================================== -->
-                    <a class="navbar-brand ms-4" href="index.html">
+                    <a class="navbar-brand ms-4" href="">
                         <!-- Logo icon -->
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
@@ -62,7 +62,7 @@
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="<?php echo e(asset('backend/')); ?>/assets/images/logo-light-text.png" alt="homepage" class="dark-logo" />
+                            <img src="<?php echo e(asset('backend/assets/images/logo-light-text.png')); ?>" alt="homepage" class="dark-logo" />
 
                         </span>
                     </a>

@@ -21,12 +21,8 @@ Route::get('/', function () {
 });
 
 Route::get('/user', function () {
-    return view('user');
+    return view('frontend.home');
 })->name('user');
-
-Route::get('test', function () {
-    return view('1error');
-})->name('1error');;
 
 Auth::routes();
 Route::resource('pendidikan', 'PendidikanController');

@@ -1,5 +1,3 @@
-
-
 <?php $__env->startSection('content'); ?>
 
   <!-- ======= Hero Section ======= -->
@@ -33,8 +31,8 @@
           <p>YooVis menyediakan layanan servis yang dapat membantu masalah anda</p>
         </div>
 
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="row" style="float: center;">
+          <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4 class="title"><a href="">Gadget</a></h4>
@@ -42,7 +40,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4 class="title"><a href="">Laptop</a></h4>
@@ -50,7 +48,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4 class="title"><a href="">Printer</a></h4>
@@ -58,14 +56,10 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
+          <div class="home_hours text-center mt-5 d-none d-sm-block">
+            Jam Kerja : Senin - Jumat : 08:00 - 19:00 WIB &nbsp;&nbsp;&nbsp;
+            <span>Sabtu - Minggu  Hari Libur : 09:00 - 18:00 WIB</span>
+        </div>
         </div>
 
       </div>
