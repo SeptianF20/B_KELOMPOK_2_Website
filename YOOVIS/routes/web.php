@@ -20,6 +20,10 @@ Route::get('/', function () {
     return view('frontend.home');
 });
 
+Route::get('/service', function () {
+    return view('frontend.gedget');
+}) ->name('service');
+
 Route::get('/user', function () {
     return view('frontend.home');
 })->name('user');
