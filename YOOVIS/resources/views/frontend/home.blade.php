@@ -36,7 +36,7 @@
         <div class="row" style="float: center;">
           <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-handphone"></i></div>
+              <div class="icon"><i class="bx bx-tab"></i></div>
               <h4 class="title"><a href="">Gadget</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
@@ -482,8 +482,6 @@
     </section><!-- End Team Section -->
    
 
-<<<<<<< HEAD
-=======
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -558,7 +556,6 @@
       </div>
     </section><!-- End Contact Section -->
 
->>>>>>> 7c51e31312d999ca7836ef8e9b46876770171670
   </main><!-- End #main -->
 
   @endsection
