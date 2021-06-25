@@ -57,9 +57,9 @@
                     <li><a class="nav-link scrollto active" href="/">Home</a></li>
                     <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="#">Service Handphone</a></li>
-                            <li><a href="#">Service Laptop</a></li>
-                            <li><a href="#">Service Printer</a></li>
+                            <li><a href="service-smartphone">Service Smartphone</a></li>
+                            <li><a href="#">Laptop</a></li>
+                            <li><a href="#">Printer</a></li>
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>

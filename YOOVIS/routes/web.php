@@ -24,6 +24,10 @@ Route::get('/service', function () {
     return view('frontend.gedget');
 }) ->name('service');
 
+Route::get('/service-smartphone', function () {
+    return view('frontend.service-smartphone');
+}) ->name('service-smartphone');
+
 Route::get('/user', function () {
     return view('frontend.home');
 })->name('user');
