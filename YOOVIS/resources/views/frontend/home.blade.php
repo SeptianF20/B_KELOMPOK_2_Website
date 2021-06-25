@@ -68,27 +68,25 @@
         <div class="row" style="float: center;">
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                    <h4 class="title"><a href="">Gadget</a></h4>
-                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                        excepturi</p>
+                    <div class="icon"><i class="bx bx-tab"></i></div>
+                    <h4 class="title"><a href="service-smartphone">Smartphone</a></h4>
+                    <p class="description">Memperbaiki semua masalah pada Smartphone anda</p>
                 </div>
             </div>
 
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                    <div class="icon"><i class="bx bx-file"></i></div>
+                    <div class="icon"><i class="bx bx-laptop"></i></div>
                     <h4 class="title"><a href="">Laptop</a></h4>
-                    <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore</p>
+                    <p class="description">Memperbaiki semua masalah pada Laptop anda</p>
                 </div>
             </div>
 
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon"><i class="bx bx-tachometer"></i></div>
+                    <div class="icon"><i class="bx bx-printer"></i></div>
                     <h4 class="title"><a href="">Printer</a></h4>
-                    <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    <p class="description">Memperbaiki semua masalah pada Printer anda
                     </p>
                 </div>
             </div>

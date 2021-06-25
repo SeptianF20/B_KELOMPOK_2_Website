@@ -62,7 +62,6 @@
                             <li><a href="#">Printer</a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     @guest
                     @if (Route::has('login'))
