@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateServisPrinterTable extends Migration
+class CreateServisHpTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateServisPrinterTable extends Migration
      */
     public function up()
     {
-        Schema::create('servis_printer', function (Blueprint $table) {
+        Schema::create('servis_hp', function (Blueprint $table) {
             $table->id();
-            $table->string('merk_printer');
-            $table->string('type_printer');
-            $table->string('kerusakan_printer');
+            $table->string('merk_hp');
+            $table->string('type_hp');
+            $table->string('kerusakan_hp');
             $table->string('layanan');
             $table->string('promo');
             $table->string('lokasi_anda');
@@ -34,6 +34,6 @@ class CreateServisPrinterTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('servis_printer');
+        Schema::dropIfExists('servis_hp');
     }
 }

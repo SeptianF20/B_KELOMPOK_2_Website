@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateKerusakanPrinterTable extends Migration
+class CreateKerusakanLaptopTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateKerusakanPrinterTable extends Migration
      */
     public function up()
     {
-        Schema::create('kerusakan_printer', function (Blueprint $table) {
+        Schema::create('kerusakan_laptop', function (Blueprint $table) {
             $table->id();
             $table->string('jenis_kerusakan');
             $table->string('harga');
@@ -28,6 +28,6 @@ class CreateKerusakanPrinterTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('kerusakan_printer');
+        Schema::dropIfExists('kerusakan_laptop');
     }
 }
