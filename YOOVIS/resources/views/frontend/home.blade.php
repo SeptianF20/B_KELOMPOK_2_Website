@@ -22,40 +22,45 @@
 
 </section>
 <!-- End Hero -->
-<div class="box" data-aos="zoom-in-right" data-aos-delay="200">
-    <section id="team" class="team section-bg">
-        <div class="container">
-        <div class="section-title" data-aos="fade-up">
-            <h2>Cara Memesan YooVis</h2>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-12">
-                <div class="card border-0 text-center">
-                    <img src="https://seekmi.com/images/icons/Hand.png"/>
-                    <div class="card-body">
-                        Pilih Layanan Seekmi
+
+<!-- order -->
+<div class="order">
+    <div class="box" data-aos="zoom-in-right" data-aos-delay="200">
+        <section id="team" class="team section-bg">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Cara Memesan YooVis</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-12">
+                        <div class="text-center">
+                            <img src="https://seekmi.com/images/icons/Hand.png" />
+                            <div class="card-body">
+                                Pilih Layanan YooVis
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-12">
+                        <div class="text-center">
+                            <img src="https://seekmi.com/images/icons/Location.png" />
+                            <div class="card-body">
+                                Pilih Waktu dan Lokasi
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-12">
+                        <div class="text-center">
+                            <img src="https://seekmi.com/images/icons/Broom.png" />
+                            <div class="card-body">
+                                Nikmati Pelayanan Terbaik dari YooVis
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 col-12">
-                <div class="card border-0 text-center">
-                    <img src="https://seekmi.com/images/icons/Location.png"/>
-                    <div class="card-body">
-                        Pilih Waktu dan Lokasi
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-12">
-                <div class="card border-0 text-center">
-                    <img src="https://seekmi.com/images/icons/Broom.png"/>
-                    <div class="card-body">
-                        Nikmati Pelayanan Terbaik Seekmi
-                    </div>
-                </div>
-        </div>
+    </div>
 </div>
-</div>
-</div>
+<!-- End order -->
 <!-- ======= Services Section ======= -->
 <section id="services" class="services">
     <div class="container">

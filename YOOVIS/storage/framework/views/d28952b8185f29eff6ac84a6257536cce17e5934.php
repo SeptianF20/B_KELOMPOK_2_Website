@@ -1,5 +1,3 @@
-
-
 <?php $__env->startSection('content'); ?>
 
 <!-- ======= Hero Section ======= -->
@@ -22,40 +20,45 @@
 
 </section>
 <!-- End Hero -->
-<div class="box" data-aos="zoom-in-right" data-aos-delay="200">
-    <section id="team" class="team section-bg">
-        <div class="container">
-        <div class="section-title" data-aos="fade-up">
-            <h2>Cara Memesan YooVis</h2>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-12">
-                <div class="card border-0 text-center">
-                    <img src="https://seekmi.com/images/icons/Hand.png"/>
-                    <div class="card-body">
-                        Pilih Layanan Seekmi
+
+<!-- order -->
+<div class="order">
+    <div class="box" data-aos="zoom-in-right" data-aos-delay="200">
+        <section id="team" class="team section-bg">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Cara Memesan YooVis</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-12">
+                        <div class="text-center">
+                            <img src="https://seekmi.com/images/icons/Hand.png" />
+                            <div class="card-body">
+                                Pilih Layanan YooVis
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-12">
+                        <div class="text-center">
+                            <img src="https://seekmi.com/images/icons/Location.png" />
+                            <div class="card-body">
+                                Pilih Waktu dan Lokasi
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-12">
+                        <div class="text-center">
+                            <img src="https://seekmi.com/images/icons/Broom.png" />
+                            <div class="card-body">
+                                Nikmati Pelayanan Terbaik dari YooVis
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 col-12">
-                <div class="card border-0 text-center">
-                    <img src="https://seekmi.com/images/icons/Location.png"/>
-                    <div class="card-body">
-                        Pilih Waktu dan Lokasi
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-12">
-                <div class="card border-0 text-center">
-                    <img src="https://seekmi.com/images/icons/Broom.png"/>
-                    <div class="card-body">
-                        Nikmati Pelayanan Terbaik Seekmi
-                    </div>
-                </div>
-        </div>
+    </div>
 </div>
-</div>
-</div>
+<!-- End order -->
 <!-- ======= Services Section ======= -->
 <section id="services" class="services">
     <div class="container">
@@ -68,27 +71,25 @@
         <div class="row" style="float: center;">
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                    <h4 class="title"><a href="">Gadget</a></h4>
-                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                        excepturi</p>
+                    <div class="icon"><i class="bx bx-tab"></i></div>
+                    <h4 class="title"><a href="service-smartphone">Smartphone</a></h4>
+                    <p class="description">Memperbaiki semua masalah pada Smartphone anda</p>
                 </div>
             </div>
 
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                    <div class="icon"><i class="bx bx-file"></i></div>
+                    <div class="icon"><i class="bx bx-laptop"></i></div>
                     <h4 class="title"><a href="">Laptop</a></h4>
-                    <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore</p>
+                    <p class="description">Memperbaiki semua masalah pada Laptop anda</p>
                 </div>
             </div>
 
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon"><i class="bx bx-tachometer"></i></div>
+                    <div class="icon"><i class="bx bx-printer"></i></div>
                     <h4 class="title"><a href="">Printer</a></h4>
-                    <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    <p class="description">Memperbaiki semua masalah pada Printer anda
                     </p>
                 </div>
             </div>

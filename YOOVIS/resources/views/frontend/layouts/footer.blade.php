@@ -42,13 +42,13 @@
                         <i class="ri-phone-line"></i>
                         <p>0822-8888-0101</p>
                     </div>
-
                 </div>
             </div>
-
-
-
-
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                <img src="{{ asset('frontend/assets/img/logo.png')}}">
+            </div>
+            </div>
+        </div>
         </div>
 
     </div>
