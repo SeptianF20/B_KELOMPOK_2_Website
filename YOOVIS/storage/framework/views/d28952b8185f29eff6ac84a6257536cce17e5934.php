@@ -30,7 +30,7 @@
                     <h2>Cara Memesan YooVis</h2>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4 col-12">
+                    <div class="col-sm-4 col-12" data-aos="fade-up">
                         <div class="text-center">
                             <img src="https://seekmi.com/images/icons/Hand.png" />
                             <div class="card-body">
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-12">
+                    <div class="col-sm-4 col-12" data-aos="fade-up">
                         <div class="text-center">
                             <img src="https://seekmi.com/images/icons/Location.png" />
                             <div class="card-body">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-12">
+                    <div class="col-sm-4 col-12" data-aos="fade-up">
                         <div class="text-center">
                             <img src="https://seekmi.com/images/icons/Broom.png" />
                             <div class="card-body">
