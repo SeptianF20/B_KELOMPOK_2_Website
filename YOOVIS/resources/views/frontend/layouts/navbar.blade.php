@@ -55,11 +55,11 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="/">Home</a></li>
-                    <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#service"><span>Service</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="service-smartphone">Service Smartphone</a></li>
-                            <li><a href="#">Laptop</a></li>
-                            <li><a href="#">Printer</a></li>
+                            <li><a href="service-laptop">Service Laptop</a></li>
+                            <li><a href="service-printer">Service Printer</a></li>
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -80,7 +80,7 @@
                                               document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a></li><i class="fa fa-sign-out" aria-hidden="true"></i>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                <form id="logout-form" action="{{ route('logout') }} " method="POST" class="d-none">
                                     @csrf
                                 </form>
 

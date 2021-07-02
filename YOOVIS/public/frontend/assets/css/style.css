@@ -1549,6 +1549,11 @@ section {
     background: #2383c4;
 }
 
+.img-contact {
+    width: 275px;
+    align-content : center;
+}
+
 @-webkit-keyframes animate-loading {
     0% {
         transform: rotate(0deg);
@@ -1714,7 +1719,6 @@ section {
     padding: 15px;
     font-weight: 600;
 }
-
 .service .php-email-form .error-message br+br {
     margin-top: 25px;
 }
@@ -1777,3 +1781,4 @@ section {
 .service .php-email-form button[type="submit"]:hover {
     background: #2383c4;
 }
+

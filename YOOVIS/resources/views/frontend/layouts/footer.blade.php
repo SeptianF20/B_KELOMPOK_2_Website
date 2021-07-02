@@ -8,10 +8,10 @@
 
         <div class="row">
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="contact-about">
                     <h3>YooVis</h3>
-                    <p>Yoovis adalah penyedia jasa servis dan sparepart untuk barang elektronik seperti Laptop, Printer
+                    <p align="justify">Yoovis adalah penyedia jasa servis dan sparepart untuk barang elektronik seperti Laptop, Printer
                         dan HandPhone.
                         Kami memiliki pelayanan Home Delivery Service.
                         Untuk anda yang sibuk dan tak sempat pergi ke home service kami,
@@ -26,11 +26,11 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-2 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
                 <div class="info">
                     <div>
                         <i class="ri-map-pin-line"></i>
-                        <p>Jember<br>Jawa Timur, 68121</p>
+                        <p>Jember, Jawa Timur, 68121</p>
                     </div>
 
                     <div>
@@ -44,9 +44,10 @@
                     </div>
                 </div>
             </div>
-                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
-                <img src="{{ asset('frontend/assets/img/logo.png')}}">
-            </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                {{-- <img src="#"> --}}
+                <img src="{{ asset('frontend/assets/img/logo.png')}}" class="img-contact">
+                </div>
             </div>
         </div>
         </div>
