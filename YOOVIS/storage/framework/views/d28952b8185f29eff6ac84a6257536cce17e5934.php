@@ -103,6 +103,7 @@
     </div>
 </section><!-- End Services Section -->
 
+
 <!-- ======= F.A.Q Section ======= -->
 <section id="faq" class="faq">
     <div class="container">
@@ -110,56 +111,64 @@
         <div class="section-title" data-aos="fade-up">
             <h2>Mengapa YooVis?</h2>
         </div>
+        <div class="row">
+            <div class="col-md-4 animate-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-box">
+                    <div class="row">
+                    <div class="col-4">
+                    <span class="feature-icon">
+                        <i class="bi bi-hand-thumbs-up"></i>
+                    </span>
+                    </div>
+                    <div class="col-8">
+                    <div class="feature-text">
+                        <h3>Terpercaya</h3>
+                        <p align="justify">Teknisi dengan standar pelatihan khusus untuk memastikan pekerjaan terselesaikan.</p>
+                        <!-- <p><a href="#">Learn More</a></p> -->
+                    </div>
+                    </div>
+                    </div>
+                </div>
 
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-5">
-                <i class="bi bi-hand-thumbs-up"></i>
-                <h4>Terpercaya</h4>
             </div>
-            <div class="col-lg-7">
-                <p>
-                    Teknisi dengan standar pelatihan khusus untuk memastikan pekerjaan terselesaikan dengan
-                    sempurna.
-                </p>
+            <div class="col-md-4 animate-box"  data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-box">
+                    <div class="row">
+                    <div class="col-4">
+                    <span class="feature-icon">
+                        <i class="bi bi-person-check-fill"></i>
+                    </span>
+                    </div>
+                    <div class="col-8">
+                    <div class="feature-text">
+                        <h3>Kemudahan</h3>
+                        <p align="justify">Cukup dengan beberapa sentuhan jari di smartphone teknisi akan menghampiri Anda.</p>
+                        <!-- <p><a href="#">Learn More</a></p> -->
+                    </div>
+                    </div>
+                    </div>
+                </div>
             </div>
-        </div><!-- End F.A.Q Item-->
+            <div class="col-md-4 animate-box"  data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-box">
+                    <div class="row">
+                    <div class="col-4">
+                        <span class="feature-icon">
+                            <i class="bi bi-tags"></i>
+                        </span>
+                    </div>
+                    <div class="col-8">
+                        <div class="feature-text">
+                            <h3>Harga</h3>
+                            <p align="justify">Dapatkan harga yang murah dengan garansi / menerima pembayaran tunai & transfer.</p>
+                            <!-- <p><a href="#">Learn More</a></p> -->
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-5">
-                <i class="bi bi-cash"></i>
-                <h4>Harga</h4>
-            </div>
-            <div class="col-lg-7">
-                <p>
-                    Dapatkan harga yang tetap disertakan dengan garansi
-                </p>
-            </div>
-        </div><!-- End F.A.Q Item-->
-
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-5">
-                <i class="bi bi-hand-index-thumb"></i>
-                <h4>Kemudahan</h4>
-            </div>
-            <div class="col-lg-7">
-                <p>
-                    Cukup 1 klik, teknisi akan menghampiri Anda.
-                </p>
-            </div>
-        </div><!-- End F.A.Q Item-->
-
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="col-lg-5">
-                <i class="bi bi-wallet2"></i>
-                <h4>Pembayaran</h4>
-            </div>
-            <div class="col-lg-7">
-                <p>
-                    YooVis menerima pembayaran tunai dan transfer. Pelayanan Aman dan Terjamin
-                </p>
-            </div>
-        </div><!-- End F.A.Q Item-->
-    </div>
 </section><!-- End F.A.Q Section -->
 
 <!-- ======= Testimonials Section ======= -->

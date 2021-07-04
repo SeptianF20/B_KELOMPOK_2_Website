@@ -8,7 +8,7 @@
 
         <div class="row">
 
-            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="contact-about">
                     <h3>YooVis</h3>
                     <p align="justify">Yoovis adalah penyedia jasa servis dan sparepart untuk barang elektronik seperti Laptop, Printer
@@ -26,8 +26,9 @@
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
                 <div class="info">
+                </br>
                     <div>
                         <i class="ri-map-pin-line"></i>
                         <p>Jember, Jawa Timur, 68121</p>
@@ -37,7 +38,6 @@
                         <i class="ri-mail-send-line"></i>
                         <p>yoovis@gmail.com</p>
                     </div>
-
                     <div>
                         <i class="ri-phone-line"></i>
                         <p>0822-8888-0101</p>
@@ -51,9 +51,8 @@
             </div>
         </div>
         </div>
-
     </div>
-</section><!-- End Contact Section -->>
+</section><!-- End Contact Section -->
 <!-- ======= Footer ======= -->
 <footer id="footer">
     <div class="container">
