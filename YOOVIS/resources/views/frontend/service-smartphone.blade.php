@@ -94,7 +94,7 @@
                                                     </div>
                                                     <div class="form-group" id="datetime">
                                                         <label class="subtitle2">Waktu/jam</label>
-                                                        <select  class="form-control" >
+                                                        <select class="form-control">
                                                             <option value='' disabled="disabled">--:--</option>
                                                             <option value="8:00" data-value="8">8:00</option>
                                                             <option value="9:00" data-value="9">9:00</option>
@@ -113,12 +113,12 @@
                                                     <label class="subtitle">Lokasi Anda</label>
                                                     <hr>
                                                     <div class="form-group">
-                                                    <label class="subtitle2">Alamat</label>
-                                                    <input type="text" name="alamat" class="form-control" id="name"
-                                                        placeholder="Jember" required>
+                                                        <label class="subtitle2">Alamat</label>
+                                                        <input type="text" name="alamat" class="form-control" id="name"
+                                                            placeholder="Jember" required>
                                                     </div>
-                                                        <div><button type="submit">Send
-                                                                Message</button></div>
+                                                    <div><button type="submit">Send
+                                                            Message</button></div>
                                         </form>
                             </fieldset>
                         </div>
@@ -184,63 +184,8 @@
                 </div>
             </div>
         </div>
-        <div class="box" data-aos="zoom-in-right" data-aos-delay="200">
-            <section id="team" class="team section-bg">
-                <section id="contact" class="contact">
-    <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-            <h2>Contact Us</h2>
-        </div>
-
-        <div class="row">
-
-            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="contact-about">
-                    <h3>YooVis</h3>
-                    <p align="justify">Yoovis adalah penyedia jasa servis dan sparepart untuk barang elektronik seperti Laptop, Printer
-                        dan HandPhone.
-                        Kami memiliki pelayanan Home Delivery Service.
-                        Untuk anda yang sibuk dan tak sempat pergi ke home service kami,
-                        cukup melakukan booking untuk memesan jasa perbaikan maupun Sparepart melalui website atau
-                        aplikasi mobile pada smartphone anda,
-                        kami langsung datang ke rumah, kantor, dan kediaman anda</p>
-                    <div class="social-links">
-                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-                <div class="info">
-                    <div>
-                        <i class="ri-map-pin-line"></i>
-                        <p>Jember, Jawa Timur, 68121</p>
-                    </div>
-
-                    <div>
-                        <i class="ri-mail-send-line"></i>
-                        <p>yoovis@gmail.com</p>
-                    </div>
-
-                    <div>
-                        <i class="ri-phone-line"></i>
-                        <p>0822-8888-0101</p>
-                    </div>
-                </div>
-            </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                {{-- <img src="#"> --}}
-                <img src="{{ asset('frontend/assets/img/logo.png')}}" class="img-contact">
-                </div>
-            </div>
-        </div>
-        </div>
-
     </div>
-        </div>
+    </div>
     </div>
     </div>
     </div>
