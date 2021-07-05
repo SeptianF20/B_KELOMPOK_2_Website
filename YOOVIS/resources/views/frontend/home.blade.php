@@ -11,7 +11,7 @@
                 <h1 data-aos="fade-up">Selamat Datang di YooVis</h1>
                 <h2 data-aos="fade-up" data-aos-delay="400">Pesan Sekarang Layanan Terbaik Dari Kami</h2>
                 <div data-aos="fade-up" data-aos-delay="800">
-                    <a href="#about" class="btn-get-started scrollto">Pesan Jasa</a>
+                    <a href="#services" class="btn-get-started scrollto">Pesan Jasa</a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
@@ -238,7 +238,7 @@
                             <h4>Pelajar</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Fast Respon, Teknisi profesional, pelayanan maksimal. 
+                                Fast Respon, Teknisi profesional, pelayanan maksimal.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -253,7 +253,7 @@
                             <h4>Pengusaha</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Baru pertama kali ini, servis printer di YooVis. dan ternyata hasilnya memuaskan banget! bener2 sesuai harapan , akhirnya printer bisa dipakai lagi. Makasih 
+                                Baru pertama kali ini, servis printer di YooVis. dan ternyata hasilnya memuaskan banget! bener2 sesuai harapan , akhirnya printer bisa dipakai lagi. Makasih
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>

@@ -63,13 +63,13 @@
                                 <td>{{$item->role}}</td>
                                 <td>
                                   <div class="btn-group">
-                                    <form action="{{ route('user.destroy',$item->id)}}" method="POST">
-                                      <a href=" {{ route('user.edit',$item->id) }} " class="btn btn-warning"><i class="fa fa-edit"></i></a>
+                                    <form action="{{ route('pengguna.destroy',$item->id)}}" method="POST">
+                                      <a href=" {{ route('pengguna.edit',$item->id) }} " class="btn btn-warning"><i class="fa fa-edit"></i></a>
                                       @csrf
                                       @method('DELETE')
                                       <button type="submit" class="btn btn-danger" name="button"
                                       onclick="return confirm('Apakah anda yakin menghapus data ini ?')">
-                                        <i class="fa fa-trash-o"></i>
+                                        <i class="fa fa-trash"></i>
                                       </button>
                                     </form>
                                   </div>

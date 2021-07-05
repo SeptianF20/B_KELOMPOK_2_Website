@@ -28,12 +28,15 @@ Route::get('/service-smartphone', function () {
     return view('frontend.service-smartphone');
 }) ->name('service-smartphone');
 
+Route::get('/total', function () {
+    return view('frontend.service-smartphone');
+}) ->name('total');
+
 Route::get('/user', function () {
     return view('frontend.home');
 })->name('user');
 
 Auth::routes();
-Route::resource('pendidikan', 'PendidikanController');
 Route::resource('barang', 'BarangController');
 Route::resource('pengguna', 'PenggunaController');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

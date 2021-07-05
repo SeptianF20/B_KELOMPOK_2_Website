@@ -9,7 +9,7 @@
                 <h1 data-aos="fade-up">Selamat Datang di YooVis</h1>
                 <h2 data-aos="fade-up" data-aos-delay="400">Pesan Sekarang Layanan Terbaik Dari Kami</h2>
                 <div data-aos="fade-up" data-aos-delay="800">
-                    <a href="#about" class="btn-get-started scrollto">Pesan Jasa</a>
+                    <a href="#services" class="btn-get-started scrollto">Pesan Jasa</a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
@@ -177,7 +177,7 @@
 
         <div class="section-title" data-aos="fade-up">
             <h2>Testimonials</h2>
-            <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
+            <p>Testimoni dari para pelanggan YooVis</p>
         </div>
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -187,13 +187,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                            <h3>Saul Goodman</h3>
-                            <h4>Ceo &amp; Founder</h4>
+                            <h3>Adam Malik</h3>
+                            <h4>Pelajar</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                risus at semper.
+                                Pelayanan Sangat Baik. Teknisi Handal sangat puas service HP disini, orangnya juga ramah ramah. Recommended dah..
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -204,13 +202,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                            <h3>Sara Wilsson</h3>
-                            <h4>Designer</h4>
+                            <h3>W. Helmy</h3>
+                            <h4>Mahasiswa</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                legam anim culpa.
+                                Mas mas nya hebat, cepat tanggap, saya benerin LCD ke 3 HP saya disini semua. Sukses terus YooVis.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -221,13 +217,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                            <h3>Jena Karlis</h3>
-                            <h4>Store Owner</h4>
+                            <h3>Ana Fijria</h3>
+                            <h4>Guru</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
-                                veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
-                                minim.
+                                Cukup 1x klik, teknisi langsung dateng ke rumah. Pelayanan OKE, Tepat Waktu, Mantap..... gak salah pilih YooVis.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -238,13 +232,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                            <h3>Matt Brandon</h3>
-                            <h4>Freelancer</h4>
+                            <h3>Sony</h3>
+                            <h4>Pelajar</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
-                                fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
-                                dolore labore illum veniam.
+                                Fast Respon, Teknisi profesional, pelayanan maksimal.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -255,13 +247,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                            <h3>John Larson</h3>
-                            <h4>Entrepreneur</h4>
+                            <h3>Yuna Wijaya</h3>
+                            <h4>Pengusaha</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
-                                veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
-                                culpa fore nisi cillum quid.
+                                Baru pertama kali ini, servis printer di YooVis. dan ternyata hasilnya memuaskan banget! bener2 sesuai harapan , akhirnya printer bisa dipakai lagi. Makasih
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>

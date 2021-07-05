@@ -55,7 +55,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="/">Home</a></li>
-                    <li class="dropdown"><a href="#service"><span>Service</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#services"><span>Service</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="service-smartphone">Service Smartphone</a></li>
                             <li><a href="service-laptop">Service Laptop</a></li>

@@ -24,7 +24,7 @@ class PenggunaController extends Controller
   {
     $user = null;
     $admin_lecturer = "Menambahkan";
-    return view('backend/pengguna.create', compact('users','admin_lecturer'));
+    return view('backend/penguna.create', compact('users','admin_lecturer'));
   }
 
   public function store(Request $request)
