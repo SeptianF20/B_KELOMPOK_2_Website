@@ -25,21 +25,21 @@
                                             <div class="form-group">
                                                 <label class="subtitle2">Merk Smartphone</label>
                                                 <input type="text" name="name" class="form-control" id="name"
-                                                    placeholder="Your Name" required>
+                                                    placeholder="Merk Smartphone Anda" required>
                                             </div>
                                             <div class="form-group">
                                                 <label class="subtitle2">Type Smartphone</label>
                                                 <input type="text" name="name" class="form-control" id="name"
-                                                    placeholder="GT-123" required>
+                                                    placeholder="Type Smartphone Anda" required>
                                             </div>
                                             <div class="form-group " id="data-0">
-                                                <label class="subtitle2">kerusakan Smartphone</label>
+                                                <label class="subtitle2">Kerusakan Smartphone</label>
                                                 <div class="row mb-3 p-2">
                                                     <div class="col-sm-6">
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                LG
+                                                                Mati Total
                                                             </label>
                                                         </div>
                                                     </div>
@@ -47,7 +47,7 @@
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                Panasonic
+                                                                Layar Pecah
 
                                                             </label>
                                                         </div>
@@ -56,7 +56,7 @@
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                Samsung
+                                                                Bootloop
                                                             </label>
                                                         </div>
                                                     </div>
@@ -64,7 +64,7 @@
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                Sharp
+                                                                Speaker Mati
                                                             </label>
                                                         </div>
                                                     </div>
@@ -72,7 +72,7 @@
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                Daikin
+                                                                Connetor Error
                                                             </label>
                                                         </div>
                                                     </div>
@@ -151,7 +151,6 @@
                         <ul class="question_help_list">
                             <li>Contact 0822-8888-0101 / yoovis@gmail.com </li>
                             <li> (Senin-Jum'at 08:00 - 19:00 WIB, Sabtu-Minggu 09:00 - 18:00 WIB)</li>
-
                         </ul>
                     </div>
                 </div>
@@ -179,6 +178,8 @@
                             <p><strong>Pemberitahuan</strong><br />Pesanan Anda akan dibatalkan secara otomatis dalam
                                 waktu 24 jam jika layanan pelanggan kami tidak dapat menghubungi Anda melalui telepon
                                 untuk keperluan verifikasi dan penjadwalan.</p>
+                            <p>&nbsp;</p>
+                            <p><strong>Ekspektasi</strong><br />Tarif jasa adalah harga yang tertera di aplikasi atau web dan tidak termasuk harga sparepart.</p>
                         </ul>
                     </div>
                 </div>
