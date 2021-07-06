@@ -37,7 +37,7 @@ class PenggunaController extends Controller
   public function edit(User $user)
   {
     $admin_lecturer = "Mengubah";
-    return view('backend/pengguna.create', compact('users','admin_lecturer'));
+    return view('backend/pengguna.create', compact('users','adm in_lecturer'));
   }
 
   public function update(User $user,Request $request)
