@@ -11,7 +11,7 @@
                 <h1 data-aos="fade-up">Selamat Datang di YooVis</h1>
                 <h2 data-aos="fade-up" data-aos-delay="400">Pesan Sekarang Layanan Terbaik Dari Kami</h2>
                 <div data-aos="fade-up" data-aos-delay="800">
-                    <a href="#about" class="btn-get-started scrollto">Pesan Jasa</a>
+                    <a href="#services" class="btn-get-started scrollto">Pesan Jasa</a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
@@ -32,7 +32,7 @@
                     <h2>Cara Memesan YooVis</h2>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4 col-12">
+                    <div class="col-sm-4 col-12" data-aos="fade-up">
                         <div class="text-center">
                             <img src="https://seekmi.com/images/icons/Hand.png" />
                             <div class="card-body">
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-12">
+                    <div class="col-sm-4 col-12" data-aos="fade-up">
                         <div class="text-center">
                             <img src="https://seekmi.com/images/icons/Location.png" />
                             <div class="card-body">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-12">
+                    <div class="col-sm-4 col-12" data-aos="fade-up">
                         <div class="text-center">
                             <img src="https://seekmi.com/images/icons/Broom.png" />
                             <div class="card-body">
@@ -66,7 +66,7 @@
     <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-            <h2>Services</h2>
+            <h2>Service</h2>
             <p>YooVis menyediakan layanan servis yang dapat membantu masalah anda</p>
         </div>
 
@@ -82,7 +82,7 @@
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="icon"><i class="bx bx-laptop"></i></div>
-                    <h4 class="title"><a href="">Laptop</a></h4>
+                    <h4 class="title"><a href="service-laptop">Laptop</a></h4>
                     <p class="description">Memperbaiki semua masalah pada Laptop anda</p>
                 </div>
             </div>
@@ -90,7 +90,7 @@
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                     <div class="icon"><i class="bx bx-printer"></i></div>
-                    <h4 class="title"><a href="">Printer</a></h4>
+                    <h4 class="title"><a href="service-printer">Printer</a></h4>
                     <p class="description">Memperbaiki semua masalah pada Printer anda
                     </p>
                 </div>
@@ -105,6 +105,7 @@
     </div>
 </section><!-- End Services Section -->
 
+
 <!-- ======= F.A.Q Section ======= -->
 <section id="faq" class="faq">
     <div class="container">
@@ -112,144 +113,65 @@
         <div class="section-title" data-aos="fade-up">
             <h2>Mengapa YooVis?</h2>
         </div>
+        <div class="row">
+            <div class="col-md-4 animate-box"  data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-box">
+                    <div class="row">
+                    <div class="col-4">
+                    <span class="feature-icon">
+                        <i class="bi bi-hand-thumbs-up"></i>
+                    </span>
+                    </div>
+                    <div class="col-8">
+                    <div class="feature-text">
+                        <h3>Terpercaya</h3>
+                        <p align="justify">Teknisi dengan standar pelatihan khusus untuk memastikan pekerjaan terselesaikan.</p>
+                        <!-- <p><a href="#">Learn More</a></p> -->
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
 
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-5">
-                <i class="bi bi-hand-thumbs-up"></i>
-                <h4>Terpercaya</h4>
+            <div class="col-md-4 animate-box"  data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-box">
+                    <div class="row">
+                    <div class="col-4">
+                    <span class="feature-icon">
+                        <i class="bi bi-person-check-fill"></i>
+                    </span>
+                    </div>
+                    <div class="col-8">
+                    <div class="feature-text">
+                        <h3>Kemudahan</h3>
+                        <p align="justify">Cukup dengan beberapa sentuhan jari di smartphone teknisi akan menghampiri Anda.</p>
+                        <!-- <p><a href="#">Learn More</a></p> -->
+                    </div>
+                    </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-7">
-                <p>
-                    Teknisi dengan standar pelatihan khusus untuk memastikan pekerjaan terselesaikan dengan
-                    sempurna.
-                </p>
+            <div class="col-md-4 animate-box"  data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-box">
+                    <div class="row">
+                    <div class="col-4">
+                    <span class="feature-icon">
+                        <i class="bi bi-tags"></i>
+                    </span>
+                    </div>
+                    <div class="col-8">
+                    <div class="feature-text">
+                        <h3>Harga</h3>
+                        <p align="justify">Dapatkan harga yang murah dengan garansi dan menerima pembayaran tunai atau transfer.</p>
+                        <!-- <p><a href="#">Learn More</a></p> -->
+                    </div>
+                    </div>
+                    </div>
+                </div>
             </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
 
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-5">
-                <i class="bi bi-cash"></i>
-                <h4>Harga</h4>
-            </div>
-            <div class="col-lg-7">
-                <p>
-                    Dapatkan harga yang tetap disertakan dengan garansi
-                </p>
-            </div>
-        </div><!-- End F.A.Q Item-->
-
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-5">
-                <i class="bi bi-hand-index-thumb"></i>
-                <h4>Kemudahan</h4>
-            </div>
-            <div class="col-lg-7">
-                <p>
-                    Cukup 1 klik, teknisi akan menghampiri Anda.
-                </p>
-            </div>
-        </div><!-- End F.A.Q Item-->
-
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="col-lg-5">
-                <i class="bi bi-wallet2"></i>
-                <h4>Pembayaran</h4>
-            </div>
-            <div class="col-lg-7">
-                <p>
-                    YooVis menerima pembayaran tunai dan transfer. Pelayanan Aman dan Terjamin
-                </p>
-            </div>
-        </div><!-- End F.A.Q Item-->
-    </div>
 </section><!-- End F.A.Q Section -->
-
-<!-- ======= Features Section ======= -->
-<section id="features" class="features">
-    <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-            <h2>Features</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-3 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-store-line" style="color: #ffbb2c;"></i>
-                    <h3><a href="">Lorem Ipsum</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                <div class="icon-box">
-                    <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-                    <h3><a href="">Dolor Sitema</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                <div class="icon-box">
-                    <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-                    <h3><a href="">Sed perspiciatis</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-                <div class="icon-box">
-                    <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                    <h3><a href="">Magni Dolores</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-                <div class="icon-box">
-                    <i class="ri-database-2-line" style="color: #47aeff;"></i>
-                    <h3><a href="">Nemo Enim</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-                <div class="icon-box">
-                    <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-                    <h3><a href="">Eiusmod Tempor</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-                <div class="icon-box">
-                    <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-                    <h3><a href="">Midela Teren</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-                <div class="icon-box">
-                    <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-                    <h3><a href="">Pira Neve</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-                <div class="icon-box">
-                    <i class="ri-anchor-line" style="color: #b2904f;"></i>
-                    <h3><a href="">Dirada Pack</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-                <div class="icon-box">
-                    <i class="ri-disc-line" style="color: #b20969;"></i>
-                    <h3><a href="">Moton Ideal</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-                <div class="icon-box">
-                    <i class="ri-base-station-line" style="color: #ff5828;"></i>
-                    <h3><a href="">Verdo Park</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-                <div class="icon-box">
-                    <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-                    <h3><a href="">Flavor Nivelanda</a></h3>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section><!-- End Features Section -->
 
 <!-- ======= Testimonials Section ======= -->
 <section id="testimonials" class="testimonials section-bg">
@@ -257,7 +179,7 @@
 
         <div class="section-title" data-aos="fade-up">
             <h2>Testimonials</h2>
-            <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
+            <p>Testimoni dari para pelanggan YooVis</p>
         </div>
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -267,13 +189,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                            <h3>Saul Goodman</h3>
-                            <h4>Ceo &amp; Founder</h4>
+                            <h3>Adam Malik</h3>
+                            <h4>Pelajar</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                risus at semper.
+                                Pelayanan Sangat Baik. Teknisi Handal sangat puas service HP disini, orangnya juga ramah ramah. Recommended dah..
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -284,13 +204,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                            <h3>Sara Wilsson</h3>
-                            <h4>Designer</h4>
+                            <h3>W. Helmy</h3>
+                            <h4>Mahasiswa</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                legam anim culpa.
+                                Mas mas nya hebat, cepat tanggap, saya benerin LCD ke 3 HP saya disini semua. Sukses terus YooVis.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -301,13 +219,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                            <h3>Jena Karlis</h3>
-                            <h4>Store Owner</h4>
+                            <h3>Ana Fijria</h3>
+                            <h4>Guru</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
-                                veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
-                                minim.
+                                Cukup 1x klik, teknisi langsung dateng ke rumah. Pelayanan OKE, Tepat Waktu, Mantap..... gak salah pilih YooVis.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -318,13 +234,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                            <h3>Matt Brandon</h3>
-                            <h4>Freelancer</h4>
+                            <h3>Sony</h3>
+                            <h4>Pelajar</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
-                                fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
-                                dolore labore illum veniam.
+                                Fast Respon, Teknisi profesional, pelayanan maksimal.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -335,13 +249,11 @@
                     <div class="testimonial-wrap">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                            <h3>John Larson</h3>
-                            <h4>Entrepreneur</h4>
+                            <h3>Yuna Wijaya</h3>
+                            <h4>Pengusaha</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
-                                veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
-                                culpa fore nisi cillum quid.
+                                Baru pertama kali ini, servis printer di YooVis. dan ternyata hasilnya memuaskan banget! bener2 sesuai harapan , akhirnya printer bisa dipakai lagi. Makasih
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
