@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\KerusakanhpController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Expr\AssignOp\Concat;
 
@@ -47,5 +49,7 @@ Route::get('/user', function () {
 Auth::routes();
 Route::resource('barang', 'BarangController');
 Route::resource('pengguna', 'PenggunaController');
+Route::resource('kerusakanhp', 'KerusakanhpController');
+Route::resource('kerusakanlaptop', 'KerusakanlaptopController');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/profile', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');

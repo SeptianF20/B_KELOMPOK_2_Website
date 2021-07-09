@@ -80,7 +80,7 @@
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="icon"><i class="bx bx-laptop"></i></div>
-                    <h4 class="title"><a href="">Laptop</a></h4>
+                    <h4 class="title"><a href="service-laptop">Laptop</a></h4>
                     <p class="description">Memperbaiki semua masalah pada Laptop anda</p>
                 </div>
             </div>
@@ -88,7 +88,7 @@
             <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                     <div class="icon"><i class="bx bx-printer"></i></div>
-                    <h4 class="title"><a href="">Printer</a></h4>
+                    <h4 class="title"><a href="service-printer">Printer</a></h4>
                     <p class="description">Memperbaiki semua masalah pada Printer anda
                     </p>
                 </div>
@@ -112,7 +112,7 @@
             <h2>Mengapa YooVis?</h2>
         </div>
         <div class="row">
-            <div class="col-md-4 animate-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-md-4 animate-box"  data-aos="fade-up" data-aos-delay="200">
                 <div class="feature-box">
                     <div class="row">
                     <div class="col-4">
@@ -129,8 +129,8 @@
                     </div>
                     </div>
                 </div>
-
             </div>
+
             <div class="col-md-4 animate-box"  data-aos="fade-up" data-aos-delay="200">
                 <div class="feature-box">
                     <div class="row">
@@ -153,16 +153,16 @@
                 <div class="feature-box">
                     <div class="row">
                     <div class="col-4">
-                        <span class="feature-icon">
-                            <i class="bi bi-tags"></i>
-                        </span>
+                    <span class="feature-icon">
+                        <i class="bi bi-tags"></i>
+                    </span>
                     </div>
                     <div class="col-8">
-                        <div class="feature-text">
-                            <h3>Harga</h3>
-                            <p align="justify">Dapatkan harga yang murah dengan garansi / menerima pembayaran tunai & transfer.</p>
-                            <!-- <p><a href="#">Learn More</a></p> -->
-                        </div>
+                    <div class="feature-text">
+                        <h3>Harga</h3>
+                        <p align="justify">Dapatkan harga murah dengan garansi dan menerima pembayaran tunai atau transfer.</p>
+                        <!-- <p><a href="#">Learn More</a></p> -->
+                    </div>
                     </div>
                     </div>
                 </div>

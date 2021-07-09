@@ -55,25 +55,25 @@
                                 <div class="form-group">
                                     <label for="cname" class="control-label col-lg-2">Name <span class="require">*</span></label>
                                     <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="nama" id="nama" minlenght="5" value="{{ isset($users) ? $user->nama : ''}}" require />
+                                    <input class="form-control" type="text" name="nama" id="nama" minlenght="5" value="{{ isset($user) ? $users->name : ''}}" require />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="curl" class="control-label col-lg-2">Username <span class="require">*</span></label>
                                     <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="tahun_masuk" id="tahun_masuk" value="{{ isset($user) ? $user->tahun_masuk : ''}}" require />
+                                    <input class="form-control" type="text" name="tahun_masuk" id="tahun_masuk" value="{{ isset($user) ? $users->username : ''}}" require />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="curl" class="control-label col-lg-2">Email <span class="require">*</span></label>
                                     <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="tahun_masuk" id="tahun_masuk" value="{{ isset($user) ? $user->tahun_masuk : ''}}" require />
+                                    <input class="form-control" type="text" name="tahun_masuk" id="tahun_masuk" value="{{ isset($user) ? $users->email : ''}}" require />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="curl" class="control-label col-lg-2">Role <span class="require">*</span></label>
                                     <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="tahun_lulus" id="tahun_lulus" value="{{ isset($user) ? $user->tahun_lulus : ''}}" require />
+                                    <input class="form-control" type="text" name="tahun_lulus" id="tahun_lulus" value="{{ isset($user) ? $users->role : ''}}" require />
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -101,21 +101,3 @@
 <!-- ============================================================== -->
 <!-- End Page wrapper  -->
 @endsection
-@push('content-css')
-<link href="{{asset('backend/css/bootstrap-datepicker.css')}}" rel="stylesheet"/ />
-@endpush
-@push('content-js')
-<script src="{{asset('backend/js/bootstrap-datepicker.js')}}"></script>
-<script type="text/javascript">
-  $('#tahun_masuk').datepicker({
-    format: "yyyy",
-    viewMode: "years",
-    minViewMode: "years"
-  });
-  $('#tahun_lulus').datepicker({
-    format: "yyyy",
-    viewMode: "years",
-    minViewMode: "years"
-  });
-</script>
-@endpush

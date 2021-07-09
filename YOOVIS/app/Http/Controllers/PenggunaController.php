@@ -22,9 +22,9 @@ class PenggunaController extends Controller
 
   public function create()
   {
-    $user = null;
+    $users = null;
     $admin_lecturer = "Menambahkan";
-    return view('backend/penguna.create', compact('users','admin_lecturer'));
+    return view('backend/pengguna.create', compact('users','admin_lecturer'));
   }
 
   public function store(Request $request)
@@ -34,7 +34,7 @@ class PenggunaController extends Controller
                     ->with('success','Data Pendidikan berhasil ditambahkan.');
   }
 
-  public function edit(User $user)
+  public function edit(User $users)
   {
     $admin_lecturer = "Mengubah";
     return view('backend/pengguna.create', compact('users','admin_lecturer'));
@@ -42,7 +42,7 @@ class PenggunaController extends Controller
 
   public function update(User $user,Request $request)
   {
-    $uses->update($request->all());
+    $user->update($request->all());
     return redirect()->route('pengguna.index')
                     ->with('success','Data Pendidikan berhasil diperbaharui.');
   }
