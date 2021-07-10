@@ -15,7 +15,7 @@
     <title>{{config('app.name')}}</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/materialpro-lite/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('backend/')}}/assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('frontend/assets/img/logo.png')}}">
     <!-- chartist CSS -->
     <link href="{{asset('backend/assets/plugins/chartist-js/dist/chartist.min.css')}}" rel="stylesheet">
     <link href="{{asset('backend/assets/plugins/chartist-js/dist/chartist-init.css')}}" rel="stylesheet">
