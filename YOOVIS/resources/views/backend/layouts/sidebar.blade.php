@@ -27,6 +27,9 @@
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                         href="{{ url('kerusakanlaptop') }}" aria-expanded="false"><i class="mdi me-2 mdi-earth"></i><span
                             class="hide-menu">Kerusakan Laptop</span></a></li>
+                <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                        href="{{ url('kerusakanprinter') }}" aria-expanded="false"><i class="mdi me-2 mdi-earth"></i><span
+                            class="hide-menu">Kerusakan Printer</span></a></li>
 
             </ul>
 

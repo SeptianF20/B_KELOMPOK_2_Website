@@ -51,5 +51,6 @@ Route::resource('barang', 'BarangController');
 Route::resource('pengguna', 'PenggunaController');
 Route::resource('kerusakanhp', 'KerusakanhpController');
 Route::resource('kerusakanlaptop', 'KerusakanlaptopController');
+Route::resource('kerusakanprinter', 'KerusakanprinterController');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/profile', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');

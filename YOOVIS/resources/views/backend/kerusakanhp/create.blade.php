@@ -8,7 +8,7 @@
     <div class="page-breadcrumb">
         <div class="row align-items-center">
             <div class="col-md-6 col-8 align-self-center">
-                <h3 class="page-title mb-0 p-0">Barang</h3>
+                <h3 class="page-title mb-0 p-0">Kerusakan HP</h3>
                 <div class="d-flex align-items-center">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
@@ -47,21 +47,21 @@
                                 </div>
                             @endif
                             <div class="form">
-                                <form class="form-validate form-horizontal" id="kerusakanhp"
-                                action="{{ isset($kerusakanhp) ? route('kerusakanhp.update',$kerusakanhp->id) : route('kerusakanhp.store') }}" method="post">
+                                <form class="form-validate form-horizontal" id="kerusakan_hp"
+                                action="{{ isset($kerusakan_hp) ? route('kerusakanhp.update',$kerusakan_hp->id) : route('kerusakanhp.store') }}" method="post">
                                 {!! csrf_field() !!}
-                                {!! isset($kerusakanhp) ? method_field('PUT') : '' !!}
-                                <input type="hidden" name="id" value="{{ isset($kerusakanhp) ? $kerusakanhp->id : ''}}">
+                                {!! isset($kerusakan_hp) ? method_field('PUT') : '' !!}
+                                <input type="hidden" name="id" value="{{ isset($kerusakan_hp) ? $kerusakan_hp->id : ''}}">
                                 <div class="form-group">
                                     <label for="cname" class="control-label col-lg-2">Jenis Kerusakan<span class="require">*</span></label>
                                     <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="jenis_kerusakan" id="jenis_kerusakan" minlenght="5" value="{{ isset($kerusakanhp) ? $kerusakanhp->jenis_kerusakan : ''}}" require />
+                                    <input class="form-control" type="text" name="jenis_kerusakan" id="jenis_kerusakan" minlenght="5" value="{{ isset($kerusakan_hp) ? $kerusakan_hp->jenis_kerusakan : ''}}" require />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="cname" class="control-label col-lg-2">Harga<span class="require">*</span></label>
                                     <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="harga" id="harga" minlenght="5" value="{{ isset($kerusakanhp) ? $kerusakanhp->harga : ''}}" require />
+                                    <input class="form-control" type="text" name="harga" id="harga" minlenght="5" value="{{ isset($kerusakan_hp) ? $kerusakan_hp->harga : ''}}" require />
                                     </div>
                                 </div>
                                 <div class="form-group">

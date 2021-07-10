@@ -2,17 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Kerusakanhp;
 use Illuminate\Http\Request;
-use Illuminate\Validation\Rules\Unique;
+use App\Models\Kerusakanhp;
+use Illuminate\Support\Facades\DB;
 
 class KerusakanhpController extends Controller
 {
     public function __construct()
-  {
-      $this->middleware('auth');
-  }
-
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -20,9 +19,8 @@ class KerusakanhpController extends Controller
      */
     public function index()
     {
-        $kerusakan_hp = Kerusakanhp::all();
-
-        return view('backend.kerusakanhp.index', compact('kerusakan_hp'));
+        $kerusakan_hp = DB::table('kerusakan_hp')->get();
+        return view('backend/kerusakanhp.index', compact('kerusakan_hp'));
     }
 
     /**
@@ -32,8 +30,11 @@ class KerusakanhpController extends Controller
      */
     public function create()
     {
-
-            return view('backend.kerusakanhp.create', compact('kerusakan_hp') );
+        { 
+            $kerusakan_hp = null;
+            $admin_lecturer = "Menambahkan";
+            return view('backend/kerusakanhp.create', compact('kerusakan_hp','admin_lecturer'));
+        }
     }
 
     /**
@@ -44,23 +45,12 @@ class KerusakanhpController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, [
-            'jenis_kerusakan'         => 'required',
-            'harga'          => 'required',
+        DB::table('kerusakan_hp')->insert([
+            'jenis_kerusakan' => $request->jenis_kerusakan,
+            'harga' => $request->harga,
         ]);
-        //save to DB
-        $kerusakan_hp = Kerusakanhp::create([
-            'jenis_kerusakan'   => $request->jenis_kerusakan,
-            'harga'  => $request->harga,
-        ]);
-
-        if ($kerusakan_hp) {
-            //redirect dengan pesan sukses
-            return redirect()->route('kerusakanhp.index');
-        } else {
-            //redirect dengan pesan error
-            return redirect()->route('kerusakanhp.index');
-        }
+        return redirect()->route('kerusakanhp.index')
+            ->with('success','Data berhasil ditambahkan.');
     }
 
     /**
@@ -80,10 +70,11 @@ class KerusakanhpController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-
-    public function edit(Kerusakanhp $kerusakan_hp)
+    public function edit($id)
     {
-        return view('backend.kerusakanhp.create', compact('kerusakan_hp') );
+            $kerusakan_hp = Kerusakanhp::where('id', $id)->first();
+            $admin_lecturer = "Mengubah";
+            return view('backend/kerusakanhp.create', compact('kerusakan_hp','admin_lecturer'));
     }
 
     /**
@@ -94,23 +85,14 @@ class KerusakanhpController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function update(Request $request, Kerusakanhp $kerusakan_hp)
+    public function update(Request $request, $id)
     {
-        {
-            $this->validate($request, [
-                'jenis_kerusakan'         => 'required',
-                'harga'                 => 'required'
-            ]);
-
-            if ($kerusakan_hp) {
-                //redirect dengan pesan sukses
-                return redirect()->route('kerusakanhp.index')->with(['success' => 'Data Berhasil Diupdate!']);
-            }
-            else {
-                //redirect dengan pesan error
-                return redirect()->route('kerusakanhp.index')->with(['error' => 'Data Gagal Diupdate!']);
-            }
-        }
+        $kerusakan_hp = Kerusakanhp::find($request->id);
+        $kerusakan_hp->jenis_kerusakan = $request->jenis_kerusakan;
+        $kerusakan_hp->harga = $request->harga;
+        $kerusakan_hp->save();
+        return redirect()->route('kerusakanhp.index')
+                        ->with('success','Data berhasil diperbaharui.');
     }
 
     /**
@@ -119,12 +101,10 @@ class KerusakanhpController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Kerusakanhp $kerusakan_hp)
+    public function destroy(Kerusakanhp $kerusakanhp)
     {
-        {
-            $kerusakan_hp->delete();
-            return redirect()->route('kerusakanhp.index')
-                            ->with('success','Data Barang berhasil dihapus.');
-          }
+        $kerusakanhp->delete();
+        return redirect()->route('kerusakanhp.index')
+                        ->with('success','Data berhasil dihapus.');
     }
 }

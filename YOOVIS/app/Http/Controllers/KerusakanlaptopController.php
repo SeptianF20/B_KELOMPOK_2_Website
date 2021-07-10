@@ -30,7 +30,7 @@ class KerusakanlaptopController extends Controller
      */
     public function create()
     {
-        {
+        { 
             $kerusakan_laptop = null;
             $admin_lecturer = "Menambahkan";
             return view('backend/kerusakanlaptop.create', compact('kerusakan_laptop','admin_lecturer'));
