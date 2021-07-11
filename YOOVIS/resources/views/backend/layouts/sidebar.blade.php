@@ -16,19 +16,19 @@
                 </li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                         href="{{ url('pengguna') }}" aria-expanded="false">
-                        <i class="mdi me-2 mdi-account-check"></i><span class="hide-menu">User</span></a>
+                        <i class="mdi me-2 mdi-account-multiple-outline"></i><span class="hide-menu">User</span></a>
                 </li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                        href="{{ url('barang') }}" aria-expanded="false"><i class="mdi me-2 mdi-earth"></i><span
+                        href="{{ url('barang') }}" aria-expanded="false"><i class="mdi me-2 mdi-package-variant"></i><span
                             class="hide-menu">Barang</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                        href="{{ url('kerusakanhp') }}" aria-expanded="false"><i class="mdi me-2 mdi-earth"></i><span
+                        href="{{ url('kerusakanhp') }}" aria-expanded="false"><i class="mdi me-2 mdi-cellphone-android"></i><span
                             class="hide-menu">Kerusakan HP</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                        href="{{ url('kerusakanlaptop') }}" aria-expanded="false"><i class="mdi me-2 mdi-earth"></i><span
+                        href="{{ url('kerusakanlaptop') }}" aria-expanded="false"><i class="mdi me-2 mdi-laptop-mac"></i><span
                             class="hide-menu">Kerusakan Laptop</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                        href="{{ url('kerusakanprinter') }}" aria-expanded="false"><i class="mdi me-2 mdi-earth"></i><span
+                        href="{{ url('kerusakanprinter') }}" aria-expanded="false"><i class="mdi me-2 mdi-printer"></i><span
                             class="hide-menu">Kerusakan Printer</span></a></li>
 
             </ul>
