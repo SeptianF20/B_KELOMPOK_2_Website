@@ -162,7 +162,7 @@
                     <div class="col-8">
                     <div class="feature-text">
                         <h3>Harga</h3>
-                        <p align="justify">Dapatkan harga yang murah dengan garansi dan menerima pembayaran tunai atau transfer.</p>
+                        <p align="justify">Dapatkan harga murah dengan garansi dan menerima pembayaran tunai atau transfer.</p>
                         <!-- <p><a href="#">Learn More</a></p> -->
                     </div>
                     </div>
