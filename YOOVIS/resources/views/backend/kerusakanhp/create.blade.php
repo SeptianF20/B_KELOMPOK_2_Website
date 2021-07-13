@@ -8,12 +8,12 @@
     <div class="page-breadcrumb">
         <div class="row align-items-center">
             <div class="col-md-6 col-8 align-self-center">
-                <h3 class="page-title mb-0 p-0">User</h3>
+                <h3 class="page-title mb-0 p-0">Kerusakan HP</h3>
                 <div class="d-flex align-items-center">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">User</li>
+                            <li class="breadcrumb-item active" aria-current="page">Kerusakan HP</li>
                         </ol>
                     </nav>
                 </div>
@@ -35,7 +35,7 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Form User</h4>
+                        <h4 class="card-title">Form Tambah Kerusakan HP</h4>
                             @if ($errors->any())
                                 <div class="alert alert-danger">
                                     <strong>Whoops!</strong> There where some problems with your input.<br><br>
@@ -47,39 +47,27 @@
                                 </div>
                             @endif
                             <div class="form">
-                                <form class="form-validate form-horizontal" id="pendidikan"
-                                action="{{ isset($user) ? route('pengguna.update',$user->id) : route('pengguna.store') }}" method="post">
+                                <form class="form-validate form-horizontal" id="kerusakan_hp"
+                                action="{{ isset($kerusakan_hp) ? route('kerusakanhp.update',$kerusakan_hp->id) : route('kerusakanhp.store') }}" method="post">
                                 {!! csrf_field() !!}
-                                {!! isset($user) ? method_field('PUT') : '' !!}
-                                <input type="hidden" name="id" value="{{ isset($user) ? $user->id : ''}}">
+                                {!! isset($kerusakan_hp) ? method_field('PUT') : '' !!}
+                                <input type="hidden" name="id" value="{{ isset($kerusakan_hp) ? $kerusakan_hp->id : ''}}">
                                 <div class="form-group">
-                                    <label for="cname" class="control-label col-lg-2">Name <span class="require">*</span></label>
+                                    <label for="cname" class="control-label col-lg-2">Jenis Kerusakan<span class="require">*</span></label>
                                     <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="nama" id="nama" minlenght="5" value="{{ isset($user) ? $users->name : ''}}" require />
+                                    <input class="form-control" type="text" name="jenis_kerusakan" id="jenis_kerusakan" minlenght="5" value="{{ isset($kerusakan_hp) ? $kerusakan_hp->jenis_kerusakan : ''}}" require />
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="curl" class="control-label col-lg-2">Username <span class="require">*</span></label>
+                                    <label for="cname" class="control-label col-lg-2">Harga<span class="require">*</span></label>
                                     <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="tahun_masuk" id="tahun_masuk" value="{{ isset($user) ? $users->username : ''}}" require />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="curl" class="control-label col-lg-2">Email <span class="require">*</span></label>
-                                    <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="tahun_masuk" id="tahun_masuk" value="{{ isset($user) ? $users->email : ''}}" require />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="curl" class="control-label col-lg-2">Role <span class="require">*</span></label>
-                                    <div class="col-lg-10">
-                                    <input class="form-control" type="text" name="tahun_lulus" id="tahun_lulus" value="{{ isset($user) ? $users->role : ''}}" require />
+                                    <input class="form-control" type="text" name="harga" id="harga" minlenght="5" value="{{ isset($kerusakan_hp) ? $kerusakan_hp->harga : ''}}" require />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="col-lg-offset-2 col-lg-10">
                                     <button class="btn btn-primary" type="submit">Submit</button>
-                                    <a href="{{ route('pengguna.index') }}"><button class="btn btn-default" type="button">Cancel</button></a>
+                                    <a href="{{ route('kerusakanhp.index') }}"><button class="btn btn-default" type="button">Cancel</button></a>
                                     </div>
                                 </div>
                                 </form>

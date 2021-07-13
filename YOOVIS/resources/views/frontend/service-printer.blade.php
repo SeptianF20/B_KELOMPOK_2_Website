@@ -9,8 +9,8 @@
                 <div class="col-12">
                     <div class="service">
                         <div class="title">
-                            <img src="{{ asset('frontend/assets/img/smartphone.svg')}}">
-                            Service Handphone
+                            <img src="{{ asset('frontend/assets/img/print.svg')}}">
+                            Service Printer
                         </div>
                     </div>
                     <br>
@@ -20,26 +20,26 @@
                                 <div class="service">
                                     <div class="col-lg-12 col-md-12" data-aos="fade-up" data-aos-delay="300">
                                         <form role="form" class="php-email-form">
-                                            <label class="subtitle">Info Smartphone Anda</label>
+                                            <label class="subtitle">Info Printer Anda</label>
                                             <hr>
                                             <div class="form-group">
-                                                <label class="subtitle2">Merk Smartphone</label>
+                                                <label class="subtitle2">Merk Printer</label>
                                                 <input type="text" name="name" class="form-control" id="name"
-                                                    placeholder="Your Name" required>
+                                                    placeholder="Merk Printer Anda" required>
                                             </div>
                                             <div class="form-group">
-                                                <label class="subtitle2">Type Smartphone</label>
+                                                <label class="subtitle2">Type Printer</label>
                                                 <input type="text" name="name" class="form-control" id="name"
-                                                    placeholder="GT-123" required>
+                                                    placeholder="Type Printer Anda" required>
                                             </div>
                                             <div class="form-group " id="data-0">
-                                                <label class="subtitle2">kerusakan Smartphone</label>
+                                                <label class="subtitle2">kerusakan Printer</label>
                                                 <div class="row mb-3 p-2">
                                                     <div class="col-sm-6">
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                LG
+                                                                Boros Tinta
                                                             </label>
                                                         </div>
                                                     </div>
@@ -47,8 +47,7 @@
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                Panasonic
-
+                                                                Kecepatan Cetak Lama
                                                             </label>
                                                         </div>
                                                     </div>
@@ -56,7 +55,7 @@
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                Samsung
+                                                                Hasil Cetak Putus-putus
                                                             </label>
                                                         </div>
                                                     </div>
@@ -64,7 +63,7 @@
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                Sharp
+                                                                Catrige Rusak
                                                             </label>
                                                         </div>
                                                     </div>
@@ -72,7 +71,7 @@
                                                         <div class="form-check-label">
                                                             <label class="names">
                                                                 <input type="checkbox">
-                                                                Daikin
+                                                                Mati Total
                                                             </label>
                                                         </div>
                                                     </div>
@@ -84,7 +83,6 @@
                                                             </label>
                                                         </div>
                                                     </div>
-
                                                     <label class="subtitle">Kapan Anda Membutuhkan Layanan Ini?</label>
                                                     <hr>
                                                     <div class="form-group">
@@ -132,9 +130,7 @@
                         <div class="carousel-inner">
 
                             <div class="carousel-item active ">
-                                <img src="https://s3-ap-southeast-1.amazonaws.com/apic-asset/services-banner/image_589317d392f01.png"
-                                    data-path="https://s3-ap-southeast-1.amazonaws.com/apic-asset/services-banner/image_589317d392f01.png"
-                                    onError="this.onerror=null;this.src='http://via.placeholder.com/500x350'"
+                                <img src="{{ asset('frontend/assets/img/printer.jpg')}}"
                                     class="d-none d-sm-block w-100" alt=AC Cleaning>
                             </div>
                             <div class="carousel-item  ">
@@ -151,9 +147,8 @@
                     <div class="card-body">
                         <div class="title">Butuh bantuan untuk pesan?</div>
                         <ul class="question_help_list">
-                            <li>Contact 021-80625200 / support@seekmi.com </li>
-                            <li> (Weekday 8am-7pm, Weekend/Holiday 8am-6pm)</li>
-
+                            <li>Contact 0822-8888-0101 / yoovis@gmail.com </li>
+                            <li> (Senin-Jum'at 08:00 - 19:00 WIB, Sabtu-Minggu 09:00 - 18:00 WIB)</li>
                         </ul>
                     </div>
                 </div>
@@ -162,29 +157,15 @@
                         <div class="title">Nilai lebih jasa kami</div>
                         <ul class="question_help_list">
                             <p>&nbsp;</p>
-                            <p><strong>Layanan Jasa AC Terbaik di Jabodetabek</strong></p>
+                            <p><strong>Layanan Jasa Servis Terbaik di Jember</strong></p>
                             <ul>
                                 <li>Teknisi berpengalaman dan profesional.</li>
                                 <li>Peralatan teknisi lengkap.</li>
-                                <li>Hanya untuk jenis AC split.</li>
-                                <li>Garansi 30 hari untuk Reparasi AC, 14 hari untuk Bongkar Pasang AC, dan 7 hari untuk
-                                    Cuci AC.</li>
-                                <li>Garansi HANYA berlaku untuk pemesanan melalui website atau aplikasi Seekmi.</li>
-                                <li>Asuransi gratis tersedia untuk pembayaran non-tunai.</li>
+                                <li>Garansi 30 hari.</li>
+                                <li>Garansi HANYA berlaku untuk pemesanan melalui website atau aplikasi YooVis.</li>
                             </ul>
                             <p>&nbsp;</p>
-                            <p><strong>Jenis Layanan</strong></p>
-                            <ul>
-                                <li><strong>Cuci AC</strong><br />Bersihkan kumparan AC, saringan, saluran, hingga
-                                    drainase poma AC. <strong>Pengisian freon akan dikenakan biaya tambahan tergantung
-                                        jenis freon.</strong></li>
-                                <li><strong>Bongkar Pasang AC</strong><br />Pemasangan AC baru atau pemindahan AC ke
-                                    tempat lain</li>
-                                <li><strong>Reparasi AC</strong><br />Perbaikan masalah AC berkaitan dengan freon,
-                                    saluran, sensor, termostat, drainase, modul elektronik dan remote AC</li>
-                            </ul>
-                            <p>&nbsp;</p>
-                            <p><strong>Nilai Lebih Seekmi</strong></p>
+                            <p><strong>Nilai Lebih YooVis</strong></p>
                             <ul>
                                 <li>Kami hanya memilih teknisi yang paling memenuhi syarat untuk memastikan kualitas
                                     layanan yang sangat baik. Tingkat kepuasan Anda adalah prioritas utama kami</li>
@@ -195,72 +176,13 @@
                             <p><strong>Pemberitahuan</strong><br />Pesanan Anda akan dibatalkan secara otomatis dalam
                                 waktu 24 jam jika layanan pelanggan kami tidak dapat menghubungi Anda melalui telepon
                                 untuk keperluan verifikasi dan penjadwalan.</p>
-                            <p>Harap tidak memberikan izin jika teknisi hendak membawa AC ke luar tempat Anda tinggal,
-                                dengan alasan apapun.&nbsp;</p>
-                            <p>Harap hubungi Customer Service Seekmi untuk mengetahui biaya untuk
-                                pergantian&nbsp;komponen&nbsp;AC.&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p><strong>Ekspektasi</strong><br />Tarif jasa adalah harga yang tertera di aplikasi atau web dan tidak termasuk harga sparepart.</p>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="box" data-aos="zoom-in-right" data-aos-delay="200">
-            <section id="team" class="team section-bg">
-                <section id="contact" class="contact">
-                    <div class="container">
-
-                        <div class="section-title" data-aos="fade-up">
-                            <h2>Contact Us</h2>
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                <div class="contact-about">
-                                    <h3>YooVis</h3>
-                                    <p align="justify">Yoovis adalah penyedia jasa servis dan sparepart untuk barang
-                                        elektronik seperti Laptop, Printer
-                                        dan HandPhone.
-                                        Kami memiliki pelayanan Home Delivery Service.
-                                        Untuk anda yang sibuk dan tak sempat pergi ke home service kami,
-                                        cukup melakukan booking untuk memesan jasa perbaikan maupun Sparepart melalui
-                                        website atau
-                                        aplikasi mobile pada smartphone anda,
-                                        kami langsung datang ke rumah, kantor, dan kediaman anda</p>
-                                    <div class="social-links">
-                                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-2 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-                                <div class="info">
-                                    <div>
-                                        <i class="ri-map-pin-line"></i>
-                                        <p>Jember, Jawa Timur, 68121</p>
-                                    </div>
-
-                                    <div>
-                                        <i class="ri-mail-send-line"></i>
-                                        <p>yoovis@gmail.com</p>
-                                    </div>
-
-                                    <div>
-                                        <i class="ri-phone-line"></i>
-                                        <p>0822-8888-0101</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                                {{-- <img src="#"> --}}
-                                <img src="{{ asset('frontend/assets/img/logo.png')}}" class="img-contact">
-                            </div>
-                        </div>
-                    </div>
-        </div>
-
     </div>
     </div>
     </div>

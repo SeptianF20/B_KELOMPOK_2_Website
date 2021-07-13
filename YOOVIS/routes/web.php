@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\KerusakanhpController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Expr\AssignOp\Concat;
 
@@ -28,6 +30,14 @@ Route::get('/service-smartphone', function () {
     return view('frontend.service-smartphone');
 }) ->name('service-smartphone');
 
+Route::get('/service-laptop', function () {
+    return view('frontend.service-laptop');
+}) ->name('service-laptop');
+
+Route::get('/service-printer', function () {
+    return view('frontend.service-printer');
+}) ->name('service-printer');
+
 Route::get('/total', function () {
     return view('frontend.service-smartphone');
 }) ->name('total');
@@ -39,5 +49,8 @@ Route::get('/user', function () {
 Auth::routes();
 Route::resource('barang', 'BarangController');
 Route::resource('pengguna', 'PenggunaController');
+Route::resource('kerusakanhp', 'KerusakanhpController');
+Route::resource('kerusakanlaptop', 'KerusakanlaptopController');
+Route::resource('kerusakanprinter', 'KerusakanprinterController');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/profile', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');
