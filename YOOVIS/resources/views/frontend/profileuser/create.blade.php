@@ -92,7 +92,7 @@
                                       <div class="btn-group mt-3">
                                         <div class="col-lg-offset-2 col-lg-10">
                                         <button class="btn btn-primary" type="submit">Submit</button>
-                                        <a href="{{ route('kerusakanprinter.index') }}"><button class="btn btn-default" type="button">Cancel</button></a>
+                                        <a href="{{ route('profileuser.index') }}"><button class="btn btn-default" type="button">Cancel</button></a>
                                         </div>
                                       </div>
                                     </form>
