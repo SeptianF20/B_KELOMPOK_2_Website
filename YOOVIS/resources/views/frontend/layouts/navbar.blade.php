@@ -74,7 +74,7 @@
                         <a href="#" class="getstartednew"><b><img
                                     src="{{ asset('frontend/assets/img/profil.png')}}">{{ Auth::user()-> name }}</b></a>
                         <ul>
-                            <li><a href="#">Profile</a></li>
+                            <li><a href="{{ url('profileuser') }}">Profile</a></li>
                             <hr>
                             <li><a href="#"> <a class="dropdown" href="{{ route('logout') }}" onclick="event.preventDefault();
                                               document.getElementById('logout-form').submit();">
