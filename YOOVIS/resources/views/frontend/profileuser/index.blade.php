@@ -23,8 +23,8 @@
       <div>
         <div class="service">
             <div class="title">
-                <img src="{{ asset('frontend/assets/img/servis-laptop.svg')}}">
-                Profile User
+              
+              Profile User
             </div>
         </div>
       </div>
