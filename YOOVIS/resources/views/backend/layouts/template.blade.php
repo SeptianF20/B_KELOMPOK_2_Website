@@ -128,7 +128,8 @@
     @yield('content')
     <!-- footer -->
     <!-- ============================================================== -->
-    <footer class="footer"> © Copyright Kelompok 2. All Rights Reserved by <a href="https://www.wrappixel.com/">wrappixel.com </a>
+    <footer class="footer"> © Copyright Kelompok 2. All Rights Reserved  <br>
+    <a href="https://www.wrappixel.com/"> Design by wrappixel.com </a>
     </footer>
     <!-- ============================================================== -->
     <!-- End footer -->
