@@ -33,7 +33,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Total Transaksi</h3>
                     </div>
-                    {{-- {{$transaksi}} --}}
+                    {{$transaksi}}
                     <div>
                         <hr class="mt-0 mb-0">
                     </div>
