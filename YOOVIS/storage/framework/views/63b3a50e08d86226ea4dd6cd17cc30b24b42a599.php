@@ -10,7 +10,7 @@
 
     <!-- Favicons -->
 
-    <link href="<?php echo e(asset('frontend/assets/img/favicon.png')); ?>" rel="icon">
+    <link href="<?php echo e(asset('frontend/assets/img/logo.png')); ?>" rel="icon">
     <link href="<?php echo e(asset('frontend/assets/img/apple-touch-icon.png')); ?>" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -74,7 +74,9 @@
                         <a href="#" class="getstartednew"><b><img
                                     src="<?php echo e(asset('frontend/assets/img/profil.png')); ?>"><?php echo e(Auth::user()-> name); ?></b></a>
                         <ul>
-                            <li><a href="#">Profile</a></li>
+                            <li><a href="<?php echo e(url('profileuser')); ?>">Profile</a></li>
+                            <hr>
+                            <li><a href="keranjang">Keranjang</a></li>
                             <hr>
                             <li><a href="#"> <a class="dropdown" href="<?php echo e(route('logout')); ?>" onclick="event.preventDefault();
                                               document.getElementById('logout-form').submit();">

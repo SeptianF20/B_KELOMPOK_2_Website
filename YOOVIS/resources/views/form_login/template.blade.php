@@ -18,8 +18,8 @@
     src="https://kit.fontawesome.com/f3ebff9d1e.js" crossorigin="anonymous"></script>
 
 
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('frontend/assets/img/logo.png')}}">
-    <title>Login & Register</title>
+
+    <title>Sign in & Sign up Form</title>
   </head>
   <body>
   @yield ('content')

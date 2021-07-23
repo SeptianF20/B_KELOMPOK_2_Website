@@ -34,8 +34,8 @@ class HomeController extends Controller
     {
         $user = Auth::user();
         $roleId = $user->role;
-        $role = DB::table('role')->where('id',$roleId)->first();
+        $role = DB::table('role')->where('id', $roleId)->first();
         //dd($role);
-        return view('backend.profile', compact('user','role'));
+        return view('backend.profile', compact('user', 'role'));
     }
 }
