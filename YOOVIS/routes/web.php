@@ -4,6 +4,7 @@ use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\KerusakanhpController;
 use App\Http\Controllers\TransactionController;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Expr\AssignOp\Concat;
@@ -24,7 +25,6 @@ Route::get('/', function () {
     return view('frontend.home');
 })->name('user.home');
 
-
 Route::get('/service-smartphone', [TransactionController::class, 'serviceHp'])->name('service-smartphone');
 Route::post('/service-smartphone', [TransactionController::class, 'transactionHp'])->name('transaksi.hp');
 Route::get('/service-laptop', [TransactionController::class, 'serviceLaptop'])->name('service-laptop');
@@ -37,10 +37,7 @@ Route::get('/checkout/{id}', [CheckoutController::class, 'index'])->name('checko
 Route::put('/checkout/{id}', [CheckoutController::class, 'update'])->name('checkout.update');
 Route::get('/keranjang', [TransactionController::class, 'keranjang'])->name('transaction.keranjang');
 
-
-Route::get('/cek-status', function () {
-    return view('frontend.cek-status');
-})->name('cek-status');
+Route::resource('profileuser', 'ProfileuserController');
 
 Route::get('/user', function () {
     return view('frontend.home');
@@ -50,7 +47,7 @@ Auth::routes();
 // route dengan prefix admin
 Route::group(['prefix' => 'admin', 'middleware' => ['roleAdmin']], function () {
     // route dengan role admin
-    Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get('/', [App\Http\Controllers\DashboardController::class, 'index'])->name('home');
     Route::resource('/category', 'CategoryController', ['as' => 'admin']);
     Route::resource('/kerusakan', 'KerusakanController', ['as' => 'admin']);
     Route::get('/transaction', [App\Http\Controllers\TransactionController::class, 'index'])->name('admin.transaction.index');

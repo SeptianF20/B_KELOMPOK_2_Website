@@ -1,7 +1,3 @@
-@extends('frontend/layouts.template')
-
-@section('content')
-
 <!DOCTYPE html>
 <html>
 
@@ -19,6 +15,8 @@
         <section class="payment-form dark">
             <div class="container">
                 <div class="block-heading">
+                    <img src="{{ asset('frontend/assets/img/logo.png')}}" alt=""
+                            class="img-payment"></a>
                     <h2>Pembayaran</h2>
                     <p>Lakukan Pembayaran sesuai dengan nominal yang tertera lalu upload bukti pembayaran di form bukti
                         pembayaran</p>

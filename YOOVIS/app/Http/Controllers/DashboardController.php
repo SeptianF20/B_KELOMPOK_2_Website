@@ -14,6 +14,6 @@ class DashboardController extends Controller
 
         $transaksi = Transaction::count();
 
-        return view('beckend.dashboard', compact('transaksi'));
+        return view('backend.dashboard', compact('transaksi'));
     }
 }

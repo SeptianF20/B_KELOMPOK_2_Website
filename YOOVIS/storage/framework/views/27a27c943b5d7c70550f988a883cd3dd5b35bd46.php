@@ -31,8 +31,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Total Transaksi</h3>
                     </div>
-                    <?php echo e($transaksi); ?>
-
+                    <h1 align='center'><?php echo e($transaksi); ?> Transaksi<h1>
                     <div>
                         <hr class="mt-0 mb-0">
                     </div>

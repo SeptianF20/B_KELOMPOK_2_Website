@@ -15,7 +15,7 @@
     <title><?php echo e(config('app.name')); ?></title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/materialpro-lite/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo e(asset('backend/')); ?>/assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo e(asset('frontend/assets/img/logo.png')); ?>">
     <!-- chartist CSS -->
     <link href="<?php echo e(asset('backend/assets/plugins/chartist-js/dist/chartist.min.css')); ?>" rel="stylesheet">
     <link href="<?php echo e(asset('backend/assets/plugins/chartist-js/dist/chartist-init.css')); ?>" rel="stylesheet">
@@ -55,14 +55,11 @@
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="<?php echo e(asset('frontend/assets/img/logo.png')); ?>" alt="" class="img-fluid">
-
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="<?php echo e(asset('backend/assets/images/logo-light-text.png')); ?>" alt="homepage" class="dark-logo" />
 
                         </span>
                     </a>
@@ -93,12 +90,12 @@
                         <!-- Search -->
                         <!-- ============================================================== -->
 
-                        <li class="nav-item search-box">
+                        <!-- <li class="nav-item search-box">
                             <a class="nav-link text-muted" href="javascript:void(0)"><i class="ti-search"></i></a>
                             <form class="app-search" style="display: none;">
                                 <input type="text" class="form-control" placeholder="Search &amp; enter"> <a
                                     class="srh-btn"><i class="ti-close"></i></a> </form>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <!-- ============================================================== -->
@@ -110,7 +107,7 @@
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="<?php echo e(asset('backend/assets/images/users/1.jpg')); ?>" alt="user" class="profile-pic me-2">
+                                <!-- <img src="<?php echo e(asset('backend/assets/images/users/1.jpg')); ?>" alt="user" class="profile-pic me-2"> -->
                                 <?php echo e(Auth::user()-> name); ?>
 
                             </a>
@@ -156,4 +153,5 @@
     <script src="<?php echo e(asset('backend/js/custom.js')); ?>"></script>
 </body>
 
-</html><?php /**PATH C:\xampp\htdocs\E41191224_Ferry Septian Ferdiyanto\B_KELOMPOK_2_Website\YOOVIS\resources\views/backend/layouts/template.blade.php ENDPATH**/ ?>
+</html>
+<?php /**PATH C:\xampp\htdocs\E41191224_Ferry Septian Ferdiyanto\B_KELOMPOK_2_Website\YOOVIS\resources\views/backend/layouts/template.blade.php ENDPATH**/ ?>

@@ -45,16 +45,16 @@
         <div class="container d-flex align-items-center justify-content-between">
 
             <div class="logo">
-                <h1><a href="/"><img src="{{ asset('frontend/assets/img/logo.png')}}" alt=""
+                <h1><a href="{{ route('user.home') }}"><img src="{{ asset('frontend/assets/img/logo.png')}}" alt=""
                             class="img-fluid"></a>
-                    <a href="/">YooVis</a></h1>
+                    <a href="{{ route('user.home') }}">YooVis</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
 
             </div>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="/">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="{{ route('user.home') }}">Home</a></li>
                     <li class="dropdown"><a href="#services"><span>Service</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="service-smartphone">Service Smartphone</a></li>

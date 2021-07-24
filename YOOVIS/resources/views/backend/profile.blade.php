@@ -37,10 +37,10 @@
                     <div class="col-lg-4 col-xlg-3 col-md-5">
                         <div class="card">
                             <div class="card-body profile-card">
-                                <center class="mt-4"> <img src="{{ asset('backend/assets/images/users/3.jpg') }}"
+                                <center class="mt-4"> <img src="{{ asset('frontend/assets/img/profil.png')}}"
                                         class="rounded-circle" width="150" />
                                     <h4 class="card-title mt-2">{{ $user->name }}</h4>
-                                    
+
                                 </center>
                             </div>
                         </div>
@@ -68,12 +68,6 @@
                                         <label for="cname" class="control-label col-lg-2">Email</label>
                                         <div class="col-lg-12">
                                           <input class="form-control" type="email" name="email" id="email" value="{{ $user->email }}" disabled/>
-                                        </div>
-                                      </div>
-                                      <div class="form-group">
-                                        <label for="cname" class="control-label col-lg-2">Role</label>
-                                        <div class="col-lg-12">
-                                          <input class="form-control" type="text" name="role" id="role" value="{{ $role->role }}" disabled/>
                                         </div>
                                       </div>
                                     </form>
