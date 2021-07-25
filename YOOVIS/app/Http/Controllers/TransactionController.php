@@ -19,8 +19,16 @@ class TransactionController extends Controller
      */
     public function index()
     {
-        $transaction = Transaction::all();
+        // $transaction = Transaction::all();
 
+        $transaction = Transaction::Join(
+            'checkouts',
+            'transactions.id',
+            '=',
+            'checkouts.transaction_id'
+        )->get(['transactions.*', 'checkouts.status', 'checkouts.bukti_pembayaran']);
+
+        // dd($transaction);
         return view('backend.transaction.index', compact('transaction'));
     }
 
@@ -132,7 +140,12 @@ class TransactionController extends Controller
         }
         $no_invoice = 'YOVIS-' . Str::upper($random);
 
-        $user_id = Auth::user()->id;
+        if (!Auth::user()) {
+            # code...
+            return redirect()->route('login')->with('error','Silahkan Login terlebih Dahulu');
+        }
+        else {
+        $user_id = Auth::user()->id;}
 
         $category_id = $request->category_id;
 
@@ -165,7 +178,7 @@ class TransactionController extends Controller
             ]);
 
             if ($checkout_create) {
-                return redirect()->route('checkout.index',$checkout_create->id)->with(['success' => 'Data berhasil disimpan!']);
+                return redirect()->route('checkout.index', $checkout_create->id)->with(['success' => 'Data berhasil disimpan!']);
             } else {
                 return redirect()->back()->with(['error' => 'Data Gagal Disimpan!']);
             }
@@ -188,7 +201,12 @@ class TransactionController extends Controller
         }
         $no_invoice = 'YOVIS-' . Str::upper($random);
 
-        $user_id = Auth::user()->id;
+        if (!Auth::user()) {
+            # code...
+            return redirect()->route('login')->with('error','Silahkan Login terlebih Dahulu');
+        }
+        else {
+        $user_id = Auth::user()->id;}
 
         $category_id = $request->category_id;
 
@@ -221,7 +239,7 @@ class TransactionController extends Controller
             ]);
 
             if ($checkout_create) {
-                return redirect()->route('checkout.index',$checkout_create->id)->with(['success' => 'Data berhasil disimpan!']);
+                return redirect()->route('checkout.index', $checkout_create->id)->with(['success' => 'Data berhasil disimpan!']);
             } else {
                 return redirect()->back()->with(['error' => 'Data Gagal Disimpan!']);
             }
@@ -244,7 +262,12 @@ class TransactionController extends Controller
         }
         $no_invoice = 'YOVIS-' . Str::upper($random);
 
-        $user_id = Auth::user()->id;
+        if (!Auth::user()) {
+            # code...
+            return redirect()->route('login')->with('error','Silahkan Login terlebih Dahulu');
+        }
+        else {
+        $user_id = Auth::user()->id;}
 
         $category_id = $request->category_id;
 
@@ -277,7 +300,7 @@ class TransactionController extends Controller
             ]);
 
             if ($checkout_create) {
-                return redirect()->route('checkout.index',$checkout_create->id)->with(['success' => 'Data berhasil disimpan!']);
+                return redirect()->route('checkout.index', $checkout_create->id)->with(['success' => 'Data berhasil disimpan!']);
             } else {
                 return redirect()->back()->with(['error' => 'Data Gagal Disimpan!']);
             }

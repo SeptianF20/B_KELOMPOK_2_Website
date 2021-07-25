@@ -42,9 +42,6 @@
                             <p>{{ $message }}</p>
                           </div>
                         @endif
-                        <a href="{{ route('admin.pengguna.create') }}">
-                          <button class="btn btn-primary" type="button"><i class="fa fa-plus"> Tambah</i></button>
-                        </a><br><br>
                       <div class="table-responsive">
                         <table class="table table-striped table-advance table-hover">
                           <tbody>
@@ -53,7 +50,6 @@
                               <th><i class="icon_document"></i> Username</th>
                               <th><i class="icon_calendar"></i> Email</th>
                               <th><i class="icon_calendar"></i> Role</th>
-                              <th><i class="icon_cogs"></i> Action</th>
                             </tr>
                             @foreach ($users as $item)
                               <tr>
@@ -61,19 +57,6 @@
                                 <td>{{$item->username}}</td>
                                 <td>{{$item->email}}</td>
                                 <td>{{$item->role}}</td>
-                                <td>
-                                  <div class="btn-group">
-                                    <form action="{{ route('admin.pengguna.destroy',$item->id)}}" method="POST">
-                                      <a href=" {{ route('admin.pengguna.edit',$item->id) }} " class="btn btn-warning"><i class="fa fa-edit"></i></a>
-                                      @csrf
-                                      @method('DELETE')
-                                      <button type="submit" class="btn btn-danger" name="button"
-                                      onclick="return confirm('Apakah anda yakin menghapus data ini ?')">
-                                        <i class="fa fa-trash"></i>
-                                      </button>
-                                    </form>
-                                  </div>
-                                </td>
                               </tr>
                             @endforeach
                           </tbody>

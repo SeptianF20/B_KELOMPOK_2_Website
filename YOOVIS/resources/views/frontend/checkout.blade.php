@@ -34,8 +34,13 @@
                         <div class="total">Total<span class="price">{{$transaction_total->total}}</span></div>
                     </div>
                     <div class="card-details">
+                        <h3 class="title">Kirim Pembayaran Ke : </h3>
+                                    <p class="item-name">BCA : 9232311231 (YooVis Tech)</p>
+                                    <p class="item-name">BNI : 098766231 (YooVis Tech)</p>
+                                    <p class="item-name">BRI : 09123123166231 (YooVis Tech)</p>
+                    </div>
+                    <div class="card-details">
                         <h3 class="title">Form Bukti Pembayaran</h3>
-
                             {{csrf_field()}}
                             @method('PUT')
                             <div class="row">

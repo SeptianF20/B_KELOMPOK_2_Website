@@ -30,7 +30,7 @@ class PenggunaController extends Controller
   public function store(Request $request)
   {
     User::create($request->all());
-    return redirect()->route('pengguna.index')
+    return redirect()->route('admin.pengguna.index')
                     ->with('success','Data Pendidikan berhasil ditambahkan.');
   }
 
@@ -40,17 +40,17 @@ class PenggunaController extends Controller
     return view('backend/pengguna.create', compact('users','admin_lecturer'));
   }
 
-  public function update(User $user,Request $request)
+  public function update(User $users,Request $request)
   {
-    $user->update($request->all());
-    return redirect()->route('pengguna.index')
+    $users->update($request->all());
+    return redirect()->route('admin.pengguna.index')
                     ->with('success','Data Pendidikan berhasil diperbaharui.');
   }
 
-  public function destroy(User $user)
+  public function destroy(User $pengguna)
   {
-    $user->delete();
-    return redirect()->route('pengguna.index')
+    $pengguna->delete();
+    return redirect()->route('admin.pengguna.index')
                     ->with('success','Data Pendidikan berhasil dihapus.');
   }
 }
